@@ -1,7 +1,9 @@
 from collections import Counter
 import nltk
 
-
+# ///////////////////////////////////////////////////////////////////////////////////////////////////////
+# Takes in a word as a string, converts to arpabet pronounciation (returns [[pronounciation1],...])
+# ///////////////////////////////////////////////////////////////////////////////////////////////////////
 def arpabet_word(word):
     try:
         return arpabet[word.lower()]
@@ -36,6 +38,15 @@ correct_wordset = set(correct_wordlist)
 # correct_wordcount = Counter(correct_wordlist)
 # print(*correct_wordcount.most_common(),sep="\n")
 
+# ///////////////////////////////////////////////////////////////////////////////////////////////////////
+# Creates two lists: err_word and corr_word for each pair of words
+# These will be used to compare pronunciation
+# The code for corr_word gets convoluted because I needed to account for situations where the word in error
+# was actually multiple words with multiple possible pronunciations
+# Corr_word may have many options since it is a list of
+# all permutations of pronunciations of the correct word(s)
+# ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
 pronounciation_error_pairs = []
 for i in range(0, len(error_wordlist)):
     err_word = arpabet_word(error_wordlist[i])
@@ -69,6 +80,9 @@ for i in range(0, len(error_wordlist)):
 
 print(*pronounciation_error_pairs, sep="\n\n")
 
+# ///////////////////////////////////////////////////////////////////////////////////////////////////////
+# Compares pronunciation of word in error and correct word(s)
+# ///////////////////////////////////////////////////////////////////////////////////////////////////////
 for error_pairs in pronounciation_error_pairs:
     e_pron_list = error_pairs[0][1]
     c_pron_list = error_pairs[1][1]
