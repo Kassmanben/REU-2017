@@ -1,0 +1,964 @@
+,Long Phones,Number of Identical Phonemes,Number of Identical Stresses,Long Stresses,Similar Pairs Phoneme,Short Stresses,Error Word Pronunciations,Error Word,Similar Pairs Stress,Stress Evaluation,Correct Word Pronunciations,Short Phones,Phoneme Evaluation,Correct word
+0,5,4,1,1,[],1,"[['W', 'IH1', 'N', 'D', 'Z'], ['W', 'AY1', 'N', 'D', 'Z']]",winds,"[('AY1', 'IH1')]","STRESS SIMILARITY
+","[['W', 'AY1', 'N', 'D'], ['W', 'IH1', 'N', 'D']]",4,"MINOR LEXICAL
+",wind
+1,2,2,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,[],"STRESS SIMILARITY
+","[['T', 'UW1']]",2,"HOMOPHONES
+",too
+2,4,1,1,1,"[('S', 'TH'), ('EH1', 'IH1')]",1,"[['S', 'EH1', 'N', 'D']]",send,"[('S', 'TH'), ('EH1', 'IH1')]","STRESS SIMILARITY
+","[['TH', 'IH1', 'N']]",3,"PHONETIC SIMILARITY
+",thin
+3,6,4,2,3,"[('D', 'N')]",2,"[['S', 'AE1', 'T', 'ER0', 'D', 'IY0'], ['S', 'AE1', 'T', 'IH2', 'D', 'EY2']]",Saturday,"[('D', 'N')]","STRESS SIMILARITY
+","[['S', 'AE1', 'T', 'ER0', 'N']]",5,"MINOR LEXICAL
+",Saturn
+4,0,0,0,2,[],2,"[['R', 'IH0', 'Z', 'AH1', 'L', 'T', 'S'], ['R', 'IY0', 'Z', 'AH1', 'L', 'T', 'S']]",results,"[('R', 'Filler'), ('IY0', 'W'), ('Z', 'IY1'), ('AH1', 'K'), ('L', 'UH1'), ('T', 'D')]","NO STRESS SIMILARITY
+","[['Filler', 'W', 'IY1', 'K', 'UH1', 'D']]",0,"PHONETIC SIMILARITY
+",%HESITATION we could
+5,7,2,2,3,"[('AH0', 'AO1'), ('N', 'OW0')]",2,"[['AH0', 'G', 'EH1', 'N'], ['AH0', 'G', 'EY1', 'N']]",again,"[('AH0', 'AO1'), ('EY1', 'S'), ('N', 'OW0')]","STRESS SIMILARITY
+","[['AO1', 'L', 'S', 'OW0', 'G', 'EH1', 'T'], ['AO1', 'L', 'S', 'OW0', 'G', 'IH1', 'T']]",4,"PHONETIC SIMILARITY
+",also get
+6,0,0,1,2,[],1,"[['D', 'OW1', 'N', 'T'], ['D', 'OW1', 'N']]",don't,"[('D', 'W'), ('OW1', 'IY1'), ('N', 'K')]","STRESS SIMILARITY
+","[['W', 'IY1', 'K', 'UH1', 'D']]",0,"PHONETIC SIMILARITY
+",we could
+7,7,3,2,3,"[('F', 'AO1'), ('ER0', 'L')]",2,"[['F', 'ER0', 'G', 'EH1', 'T'], ['F', 'AO0', 'R', 'G', 'EH1', 'T']]",forget,"[('F', 'AO1'), ('ER0', 'L'), ('EH1', 'OW0')]","STRESS SIMILARITY
+","[['AO1', 'L', 'S', 'OW0', 'G', 'EH1', 'T'], ['AO1', 'L', 'S', 'OW0', 'G', 'IH1', 'T']]",5,"PHONETIC SIMILARITY
+",also get
+8,4,3,2,2,"[('AW1', 'OW1')]",2,"[['AH0', 'B', 'AW1', 'T']]",about,"[('AW1', 'OW1')]","STRESS SIMILARITY
+","[['AH0', 'B', 'OW1', 'T'], ['EY1', 'B', 'OW1', 'T']]",4,"MINOR LEXICAL
+",a boat
+9,0,0,0,4,[],0,[['No arpabet available']],creepiest,"[('No arpabet available', 'M')]","NO STRESS SIMILARITY
+","[['M', 'EY1', 'B', 'IY0', 'AH0', 'S', 'T', 'OW1', 'V'], ['M', 'EY1', 'B', 'IY0', 'EY1', 'S', 'T', 'OW1', 'V']]",0,"PHONETIC SIMILARITY
+",maybe a stove
+10,9,2,2,3,"[('EH1', 'AY1'), ('K', 'T'), ('L', 'DH'), ('S', 'L')]",2,"[['R', 'EH1', 'K', 'L', 'AH0', 'S']]",reckless,"[('EH1', 'AY1'), ('K', 'T'), ('L', 'DH'), ('AH0', 'IY0'), ('S', 'L')]","STRESS SIMILARITY
+","[['R', 'AY1', 'T', 'DH', 'AH0', 'L', 'IH1', 'S', 'T'], ['R', 'AY1', 'T', 'DH', 'AH1', 'L', 'IH1', 'S', 'T'], ['R', 'AY1', 'T', 'DH', 'IY0', 'L', 'IH1', 'S', 'T']]",6,"NO PHONETIC SIMILARITY
+",write the list
+11,4,1,1,2,"[('IH1', 'AY1')]",1,"[['IH1', 'T'], ['IH0', 'T']]",it,"[('IH1', 'AY1')]","STRESS SIMILARITY
+","[['AY1', 'P', 'UH1', 'T']]",2,"PHONETIC SIMILARITY
+",I put
+12,5,2,2,3,"[('IH1', 'EY1'), ('L', 'D')]",2,"[['R', 'IH1', 'L', 'IY0'], ['R', 'IY1', 'L', 'IY0']]",really,"[('IY1', 'EY1'), ('L', 'D')]","STRESS SIMILARITY
+","[['R', 'EY1', 'D', 'IY0', 'OW2']]",4,"PHONETIC SIMILARITY
+",radio
+13,3,1,1,1,"[('W', 'AE1')]",1,"[['W', 'AA1', 'Z'], ['W', 'AH1', 'Z'], ['W', 'AH0', 'Z'], ['W', 'AO1', 'Z']]",was,"[('W', 'EH1')]","STRESS SIMILARITY
+","[['AE1', 'Z'], ['EH1', 'Z']]",2,"PHONETIC SIMILARITY
+",as
+14,0,0,1,1,[],1,"[['IH1', 'Z'], ['IH0', 'Z']]",is,"[('IH1', 'V'), ('Z', 'EH1')]","STRESS SIMILARITY
+","[['V', 'EH1', 'S', 'T']]",0,"PHONETIC SIMILARITY
+",vest
+15,4,1,1,1,"[('IH0', 'Z')]",1,"[['JH', 'AH1', 'S', 'T'], ['JH', 'IH0', 'S', 'T']]",just,"[('IH0', 'Z')]","STRESS SIMILARITY
+","[['IH1', 'Z'], ['IH0', 'Z']]",2,"PHONETIC SIMILARITY
+",is
+16,3,3,1,1,[],1,"[['F', 'AO1', 'R'], ['F', 'ER0'], ['F', 'R', 'ER0']]",for,[],"STRESS SIMILARITY
+","[['F', 'AO1', 'R']]",3,"HOMOPHONES
+",four
+17,3,2,1,1,"[('M', 'N')]",1,"[['S', 'AH1', 'M']]",some,"[('M', 'N')]","STRESS SIMILARITY
+","[['S', 'AH1', 'N']]",3,"MINOR LEXICAL
+",sun
+18,0,0,1,1,[],1,"[['F', 'AO1', 'R'], ['F', 'ER0'], ['F', 'R', 'ER0']]",for,"[('F', 'B'), ('AO1', 'AH1'), ('R', 'T')]","STRESS SIMILARITY
+","[['B', 'AH1', 'T']]",0,"PHONETIC SIMILARITY
+",but
+19,3,2,1,1,"[('M', 'N')]",1,"[['S', 'AH1', 'M']]",some,"[('M', 'N')]","STRESS SIMILARITY
+","[['S', 'AH1', 'N']]",3,"MINOR LEXICAL
+",sun
+20,3,3,1,1,[],1,"[['HH', 'OW1', 'L']]",whole,[],"STRESS SIMILARITY
+","[['HH', 'OW1', 'L']]",3,"HOMOPHONES
+",hole
+21,10,8,2,4,[],3,"[['S', 'AH0', 'F', 'IH1', 'SH', 'AH0', 'N', 'T']]",sufficient,[],"NO STRESS SIMILARITY
+","[['S', 'AH0', 'F', 'IH1', 'SH', 'AH0', 'N', 'T', 'L', 'IY0']]",8,"MINOR LEXICAL
+",sufficiently
+22,3,2,1,1,"[('D', 'P')]",1,"[['R', 'OW1', 'D']]",road,"[('D', 'P')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P']]",3,"MINOR LEXICAL
+",rope
+23,4,2,1,1,"[('F', 'S')]",1,"[['F', 'AO1', 'R'], ['F', 'ER0'], ['F', 'R', 'ER0']]",for,"[('F', 'S')]","STRESS SIMILARITY
+","[['S', 'AO1', 'R', 'T']]",3,"MINOR LEXICAL
+",sort
+24,0,0,0,1,[],1,"[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",the,"[('DH', 'AH0'), ('IY0', 'V')]","NO STRESS SIMILARITY
+","[['AH1', 'V'], ['AH0', 'V']]",0,"PHONETIC SIMILARITY
+",of
+25,3,1,1,1,"[('Y', 'W'), ('UH1', 'IY1')]",1,"[['Y', 'UH1', 'R'], ['Y', 'UW1', 'R']]",you're,"[('Y', 'W'), ('UW1', 'ER1')]","STRESS SIMILARITY
+","[['W', 'IY1', 'R'], ['W', 'IH1', 'R'], ['W', 'ER1']]",3,"MINOR LEXICAL
+",we're
+26,3,2,1,1,"[('T', 'P')]",1,"[['SH', 'IH1', 'T']]",shit,"[('T', 'P')]","STRESS SIMILARITY
+","[['SH', 'IH1', 'P']]",3,"MINOR LEXICAL
+",ship
+27,3,1,1,1,"[('EH1', 'AE1')]",1,"[['Y', 'EH1', 'S']]",yes,"[('EH1', 'AE1')]","STRESS SIMILARITY
+","[['Y', 'AE1']]",2,"PHONETIC SIMILARITY
+",yeah
+28,0,0,0,1,[],1,"[['AE1', 'T']]",at,"[('AE1', 'S'), ('T', 'OW1')]","NO STRESS SIMILARITY
+","[['S', 'OW1']]",0,"PHONETIC SIMILARITY
+",so
+29,3,1,1,1,"[('T', 'Z')]",1,"[['IH1', 'T', 'S'], ['IH0', 'T', 'S']]",it's,"[('T', 'Z')]","STRESS SIMILARITY
+","[['IH1', 'Z'], ['IH0', 'Z']]",2,"PHONETIC SIMILARITY
+",is
+30,3,1,1,1,[],1,"[['DH', 'EH1', 'M'], ['DH', 'AH0', 'M']]",them,[],"STRESS SIMILARITY
+","[['AH0'], ['EY1']]",1,"PHONETIC SIMILARITY
+",a
+31,4,1,0,2,"[('EY1', 'G'), ('V', 'R')]",1,"[['G', 'EY1', 'V']]",gave,"[('EY1', 'G'), ('V', 'R')]","NO STRESS SIMILARITY
+","[['AH0', 'G', 'R', 'IY1']]",3,"PHONETIC SIMILARITY
+",agree
+32,0,0,1,1,[],1,"[['DH', 'EH1', 'M'], ['DH', 'AH0', 'M']]",them,"[('DH', 'W'), ('AH0', 'IH0'), ('M', 'DH')]","STRESS SIMILARITY
+","[['W', 'IH1', 'DH'], ['W', 'IH1', 'TH'], ['W', 'IH0', 'TH'], ['W', 'IH0', 'DH']]",0,"PHONETIC SIMILARITY
+",with
+33,0,0,1,1,[],1,"[['W', 'EH1', 'N'], ['HH', 'W', 'EH1', 'N'], ['W', 'IH1', 'N'], ['HH', 'W', 'IH1', 'N']]",when,"[('HH', 'DH'), ('W', 'AE1'), ('IH1', 'T')]","STRESS SIMILARITY
+","[['DH', 'AE1', 'T'], ['DH', 'AH0', 'T']]",0,"PHONETIC SIMILARITY
+",that
+34,0,0,1,2,[],2,"[['TH', 'IH1', 'NG', 'K', 'IH0', 'NG']]",thinking,"[('TH', 'V'), ('IH1', 'EH1'), ('NG', 'G'), ('K', 'AH0'), ('IH0', 'N')]","NO STRESS SIMILARITY
+","[['V', 'EH1', 'G', 'AH0', 'N']]",0,"PHONETIC SIMILARITY
+",vegan
+35,4,2,2,2,"[('IH0', 'AH0'), ('AH1', 'AY1')]",2,"[['IH0', 'N', 'AH1', 'F'], ['IY0', 'N', 'AH1', 'F']]",enough,"[('IY0', 'AH0'), ('AH1', 'AY1')]","STRESS SIMILARITY
+","[['AH0', 'N', 'AY1', 'F'], ['EY1', 'N', 'AY1', 'F']]",4,"MINOR LEXICAL
+",a knife
+36,7,4,2,3,"[('Y', 'AW0'), ('F', 'V')]",2,"[['Y', 'ER0', 'S', 'EH1', 'L', 'F'], ['Y', 'UH0', 'R', 'S', 'EH1', 'L', 'F'], ['Y', 'AO1', 'R', 'S', 'EH0', 'L', 'F']]",yourself,"[('Y', 'AW0'), ('F', 'V')]","STRESS SIMILARITY
+","[['AW0', 'ER0', 'S', 'EH1', 'L', 'V', 'Z'], ['AA0', 'R', 'S', 'EH1', 'L', 'V', 'Z']]",6,"PHONETIC SIMILARITY
+",ourselves
+37,3,1,1,1,"[('Z', 'T')]",1,"[['IH1', 'Z'], ['IH0', 'Z']]",is,"[('Z', 'T')]","STRESS SIMILARITY
+","[['IH1', 'T', 'S'], ['IH0', 'T', 'S']]",2,"PHONETIC SIMILARITY
+",it's
+38,6,3,1,3,"[('N', 'OW1'), ('AH0', 'DH')]",3,"[['F', 'AY1', 'N', 'AH0', 'L', 'IY0']]",finally,"[('N', 'OW1'), ('AH0', 'DH')]","NO STRESS SIMILARITY
+","[['AY1', 'N', 'OW1', 'DH', 'AH0'], ['AY1', 'N', 'OW1', 'DH', 'AH1'], ['AY1', 'N', 'OW1', 'DH', 'IY0']]",5,"PHONETIC SIMILARITY
+",I know the
+39,0,0,0,2,[],0,"[['EH1', 'K', 'S', 'P', 'AO0', 'R', 'T']]",export,"[('EH1', 'No arpabet available')]","NO STRESS SIMILARITY
+",[['No arpabet available']],0,"PHONETIC SIMILARITY
+",%UNKNOWN
+40,4,1,1,2,"[('DH', 'Filler')]",1,"[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",the,"[('DH', 'Filler'), ('IY0', 'AH0')]","STRESS SIMILARITY
+","[['Filler', 'AY1', 'M', 'AH0'], ['Filler', 'AY1', 'M', 'AH0'], ['Filler', 'AH0', 'M', 'EY1'], ['Filler', 'AH0', 'M', 'EY1']]",2,"PHONETIC SIMILARITY
+",%HESITATION I'm a
+41,3,1,1,1,"[('M', 'N')]",1,"[['AY1', 'M'], ['AH0', 'M']]",I'm,"[('M', 'N')]","STRESS SIMILARITY
+","[['AH0', 'N', 'D'], ['AE1', 'N', 'D']]",2,"PHONETIC SIMILARITY
+",and
+42,2,2,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,[],"STRESS SIMILARITY
+","[['T', 'UW1']]",2,"HOMOPHONES
+",too
+43,5,1,1,1,"[('S', 'TH'), ('P', 'IH1')]",1,"[['S', 'P', 'EH1', 'N', 'D']]",spend,"[('S', 'TH'), ('P', 'IH1')]","STRESS SIMILARITY
+","[['TH', 'IH1', 'N']]",3,"PHONETIC SIMILARITY
+",thin
+44,4,2,1,1,"[('P', 'HH')]",1,"[['P', 'L', 'IY1', 'Z']]",please,"[('P', 'HH')]","STRESS SIMILARITY
+","[['HH', 'IY1', 'Z']]",3,"MINOR LEXICAL
+",he's
+45,5,2,0,2,"[('B', 'V'), ('IH0', 'EH1'), ('IH1', 'AH0')]",2,"[['B', 'IH0', 'G', 'IH1', 'N']]",begin,"[('B', 'V'), ('IH0', 'EH1'), ('IH1', 'AH0')]","NO STRESS SIMILARITY
+","[['V', 'EH1', 'G', 'AH0', 'N']]",5,"PHONETIC SIMILARITY
+",vegan
+46,5,2,0,2,"[('OW1', 'AA1'), ('IY0', 'AY1')]",2,"[['OW1', 'N', 'L', 'IY0']]",only,"[('OW1', 'AO1'), ('N', 'N'), ('L', 'L'), ('IY0', 'AY1')]","NO STRESS SIMILARITY
+","[['AA1', 'N', 'L', 'AY1', 'K'], ['AO1', 'N', 'L', 'AY1', 'K']]",4,"PHONETIC SIMILARITY
+",on like
+47,6,2,1,2,"[('W', 'W'), ('AA1', 'UH1')]",1,"[['W', 'AA1', 'N', 'T'], ['W', 'AO1', 'N', 'T']]",want,"[('AO1', 'UH1'), ('N', 'D'), ('T', 'AH0')]","STRESS SIMILARITY
+","[['W', 'UH1', 'D', 'AH0', 'N', 'T']]",4,"PHONETIC SIMILARITY
+",wouldn't
+48,3,1,1,1,"[('T', 'DH')]",1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'DH')]","STRESS SIMILARITY
+","[['DH', 'AE1', 'T'], ['DH', 'AH0', 'T']]",2,"PHONETIC SIMILARITY
+",that
+49,4,2,2,2,"[('AW1', 'AE1'), ('T', 'D')]",2,"[['AH0', 'B', 'AW1', 'T']]",about,"[('AW1', 'AE1'), ('T', 'D')]","STRESS SIMILARITY
+","[['AH0', 'B', 'AE1', 'D'], ['EY1', 'B', 'AE1', 'D']]",4,"MINOR LEXICAL
+",a bad
+50,0,0,0,1,[],0,[['']],%OMISSION,"[('', 'D')]","NO STRESS SIMILARITY
+","[['D', 'UW1']]",0,"PHONETIC SIMILARITY
+",do
+51,0,0,0,5,[],0,[['']],%OMISSION,"[('', 'B')]","NO STRESS SIMILARITY
+","[['B', 'IH0', 'K', 'AO1', 'Z', 'W', 'IY1', 'K', 'UH1', 'D', 'G', 'EH1', 'T'], ['B', 'IH0', 'K', 'AO1', 'Z', 'W', 'IY1', 'K', 'UH1', 'D', 'G', 'EH1', 'T'], ['B', 'IH0', 'K', 'AH1', 'Z', 'W', 'IY1', 'K', 'UH1', 'D', 'G', 'EH1', 'T'], ['B', 'IH0', 'K', 'AH1', 'Z', 'W', 'IY1', 'K', 'UH1', 'D', 'G', 'EH1', 'T'], ['B', 'IH0', 'K', 'AA1', 'Z', 'W', 'IY1', 'K', 'UH1', 'D', 'G', 'IH1', 'T'], ['B', 'IH0', 'K', 'AA1', 'Z', 'W', 'IY1', 'K', 'UH1', 'D', 'G', 'IH1', 'T'], ['B', 'IH0', 'K', 'AH0', 'Z', 'W', 'IY1', 'K', 'UH1', 'D', 'G', 'IH1', 'T'], ['B', 'IH0', 'K', 'AH0', 'Z', 'W', 'IY1', 'K', 'UH1', 'D', 'G', 'IH1', 'T']]",0,"PHONETIC SIMILARITY
+",because we could get
+52,3,1,1,1,"[('DH', 'JH'), ('AE1', 'EH1')]",1,"[['DH', 'AE1', 'T'], ['DH', 'AH0', 'T']]",that,"[('DH', 'JH'), ('AE1', 'EH1')]","STRESS SIMILARITY
+","[['JH', 'EH1', 'T']]",3,"MINOR LEXICAL
+",jet
+53,4,1,1,1,"[('L', 'P'), ('AY1', 'AE1')]",1,"[['L', 'AY1', 'K']]",like,"[('L', 'P'), ('AY1', 'AE1')]","STRESS SIMILARITY
+","[['P', 'AE1', 'K', 'S']]",3,"PHONETIC SIMILARITY
+",packs
+54,0,0,0,1,[],1,"[['S', 'EY1']]",say,"[('S', 'ER0')]","NO STRESS SIMILARITY
+","[['AO1', 'R'], ['ER0']]",0,"PHONETIC SIMILARITY
+",or
+55,7,3,2,3,"[('AO1', 'EH1'), ('T', 'F'), ('IH0', 'OW0'), ('NG', 'N')]",3,"[['AH0', 'S', 'AO1', 'L', 'T', 'IH0', 'NG']]",assaulting,"[('AH0', 'EY1'), ('AO1', 'EH1'), ('T', 'F'), ('IH0', 'OW0'), ('NG', 'N')]","NO STRESS SIMILARITY
+","[['AH0', 'S', 'EH1', 'L', 'F', 'OW0', 'N'], ['EY1', 'S', 'EH1', 'L', 'F', 'OW0', 'N']]",7,"PHONETIC SIMILARITY
+",a cellphone
+56,0,0,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'S'), ('UW1', 'OW1')]","STRESS SIMILARITY
+","[['S', 'OW1']]",0,"PHONETIC SIMILARITY
+",so
+57,0,0,1,2,[],1,"[['TH', 'IH1', 'NG', 'K']]",think,"[('TH', 'W'), ('IH1', 'IY1'), ('NG', 'K'), ('K', 'AH0')]","STRESS SIMILARITY
+","[['W', 'IY1', 'K', 'AE1', 'N'], ['W', 'IY1', 'K', 'AH0', 'N']]",0,"PHONETIC SIMILARITY
+",we can
+58,5,1,1,2,"[('OW1', 'K'), ('V', 'AO1')]",2,"[['OW1', 'V', 'ER0']]",over,"[('OW1', 'K'), ('V', 'AO1')]","NO STRESS SIMILARITY
+","[['K', 'AO1', 'L', 'F', 'AO1', 'R'], ['K', 'AO1', 'L', 'F', 'ER0'], ['K', 'AO1', 'L', 'F', 'R', 'ER0']]",3,"PHONETIC SIMILARITY
+",call for
+59,0,0,0,1,[],0,[['No arpabet available']],naïve,"[('No arpabet available', 'N')]","NO STRESS SIMILARITY
+","[['N', 'AY1', 'F']]",0,"PHONETIC SIMILARITY
+",knife
+60,0,0,0,1,[],0,"[['AO1', 'R'], ['ER0']]",or,"[('ER0', 'Filler')]","NO STRESS SIMILARITY
+",[['Filler']],0,"PHONETIC SIMILARITY
+",%HESITATION
+61,7,2,1,3,"[('AH1', 'R'), ('M', 'EY1')]",1,"[['F', 'R', 'AH1', 'M'], ['F', 'ER0', 'M']]",from,"[('F', 'AH0'), ('ER0', 'F'), ('M', 'R')]","STRESS SIMILARITY
+","[['AH0', 'F', 'R', 'EY1', 'D', 'AH1', 'V'], ['AH0', 'F', 'R', 'EY1', 'D', 'AH0', 'V']]",4,"PHONETIC SIMILARITY
+",afraid of
+62,6,3,1,2,"[('L', 'K'), ('AH0', 'S')]",1,"[['SH', 'AA1', 'R', 'L', 'AH0', 'T']]",Charlotte,"[('L', 'K'), ('AH0', 'S')]","STRESS SIMILARITY
+","[['SH', 'AA1', 'R', 'K', 'S']]",5,"PHONETIC SIMILARITY
+",sharks
+63,0,0,0,3,[],0,[['']],%OMISSION,"[('', 'B')]","NO STRESS SIMILARITY
+","[['B', 'IH0', 'K', 'AO1', 'Z', 'AY1', 'M'], ['B', 'IH0', 'K', 'AO1', 'Z', 'AY1', 'M'], ['B', 'IH0', 'K', 'AH1', 'Z', 'AY1', 'M'], ['B', 'IH0', 'K', 'AH1', 'Z', 'AY1', 'M'], ['B', 'IH0', 'K', 'AA1', 'Z', 'AH0', 'M'], ['B', 'IH0', 'K', 'AA1', 'Z', 'AH0', 'M'], ['B', 'IH0', 'K', 'AH0', 'Z', 'AH0', 'M'], ['B', 'IH0', 'K', 'AH0', 'Z', 'AH0', 'M']]",0,"PHONETIC SIMILARITY
+",because I'm
+64,5,1,1,2,"[('AH0', 'B'), ('B', 'AE1'), ('AW1', 'D')]",2,"[['AH0', 'B', 'AW1', 'T']]",about,"[('AH0', 'B'), ('B', 'AE1'), ('AW1', 'D')]","NO STRESS SIMILARITY
+","[['B', 'AE1', 'D', 'AE1', 'T']]",4,"PHONETIC SIMILARITY
+",bad at
+65,0,0,0,2,[],0,[['No arpabet available']],20,"[('No arpabet available', 'S')]","NO STRESS SIMILARITY
+","[['S', 'W', 'IH1', 'M', 'IH0', 'NG']]",0,"PHONETIC SIMILARITY
+",swimming
+66,0,0,0,1,[],0,[['']],%OMISSION,"[('', 'W')]","NO STRESS SIMILARITY
+","[['W', 'IY1']]",0,"PHONETIC SIMILARITY
+",we
+67,0,0,1,1,[],1,"[['AH1', 'V'], ['AH0', 'V']]",of,"[('AH1', 'AE1'), ('V', 'T')]","STRESS SIMILARITY
+","[['AE1', 'T']]",0,"PHONETIC SIMILARITY
+",at
+68,7,1,1,3,"[('EY1', 'IH0'), ('M', 'G')]",1,"[['G', 'EY1', 'M']]",game,"[('EY1', 'IH0'), ('M', 'G')]","STRESS SIMILARITY
+","[['B', 'IH0', 'G', 'IH1', 'N', 'IH0', 'NG']]",3,"NO PHONETIC SIMILARITY
+",beginning
+69,4,1,1,2,"[('AW1', 'HH')]",1,"[['HH', 'AW1']]",how,"[('AW1', 'HH')]","STRESS SIMILARITY
+","[['AY1', 'HH', 'AE1', 'D']]",2,"PHONETIC SIMILARITY
+",I had
+70,0,0,1,2,[],1,"[['D', 'UW1']]",do,"[('D', 'IH0'), ('UW1', 'T')]","STRESS SIMILARITY
+","[['IH1', 'T', 'AE1', 'T'], ['IH0', 'T', 'AE1', 'T']]",0,"PHONETIC SIMILARITY
+",it at
+71,0,0,1,1,[],1,[['AY1']],I,"[('AY1', 'DH')]","STRESS SIMILARITY
+","[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",0,"PHONETIC SIMILARITY
+",the
+72,8,2,1,3,"[('T', 'G')]",1,"[['G', 'EH1', 'T'], ['G', 'IH1', 'T']]",get,"[('T', 'G')]","STRESS SIMILARITY
+","[['B', 'IH0', 'G', 'IH1', 'N', 'IH0', 'NG', 'Filler']]",3,"PHONETIC SIMILARITY
+",beginning %HESITATION
+73,0,0,0,1,[],0,[['No arpabet available']],Claires,"[('No arpabet available', 'F')]","NO STRESS SIMILARITY
+","[['F', 'L', 'EH1', 'R', 'Z']]",0,"PHONETIC SIMILARITY
+",flares
+74,5,2,1,2,"[('P', 'F'), ('EY1', 'EH1'), ('ER0', 'R')]",1,"[['P', 'L', 'EY1', 'ER0', 'Z']]",players,"[('P', 'F'), ('EY1', 'EH1'), ('ER0', 'R')]","STRESS SIMILARITY
+","[['F', 'L', 'EH1', 'R', 'Z']]",5,"PHONETIC SIMILARITY
+",flares
+75,0,0,1,1,[],1,"[['W', 'IY1', 'R'], ['W', 'IH1', 'R'], ['W', 'ER1']]",we're,"[('W', 'B'), ('ER1', 'AH1')]","STRESS SIMILARITY
+","[['B', 'AH1', 'T']]",0,"PHONETIC SIMILARITY
+",but
+76,4,1,1,2,"[('G', 'D'), ('IH0', 'N'), ('NG', 'T')]",1,"[['G', 'OW1', 'IH0', 'NG'], ['G', 'OW1', 'IH0', 'N']]",going,"[('G', 'D'), ('IH0', 'N')]","STRESS SIMILARITY
+","[['D', 'OW1', 'N', 'T'], ['D', 'OW1', 'N']]",4,"MINOR LEXICAL
+",don't
+77,0,0,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'DH'), ('UW1', 'EY1')]","STRESS SIMILARITY
+","[['DH', 'EY1']]",0,"PHONETIC SIMILARITY
+",they
+78,7,1,0,3,"[('L', 'DH'), ('AH0', 'OW1'), ('AA1', 'L'), ('N', 'AY1'), ('Y', 'K')]",2,"[['L', 'AA0', 'S', 'AA1', 'N', 'Y', 'AH0'], ['L', 'AH0', 'Z', 'AA1', 'N', 'Y', 'AH0']]",lasagna,"[('L', 'DH'), ('AH0', 'OW1'), ('Z', 'Z'), ('AA1', 'L'), ('N', 'AY1'), ('Y', 'K')]","NO STRESS SIMILARITY
+","[['DH', 'OW1', 'Z', 'L', 'AY1', 'K']]",6,"NO PHONETIC SIMILARITY
+",those like
+79,11,2,1,5,"[('B', 'DH'), ('EH1', 'EY1'), ('IH0', 'V'), ('JH', 'R'), ('IH0', 'EY1'), ('Z', 'D')]",3,"[['B', 'EH1', 'V', 'R', 'IH0', 'JH', 'IH0', 'Z']]",beverages,"[('B', 'DH'), ('EH1', 'EY1'), ('IH0', 'V'), ('JH', 'R'), ('IH0', 'EY1'), ('Z', 'D')]","NO STRESS SIMILARITY
+","[['DH', 'EY1', 'HH', 'AE1', 'V', 'R', 'EY1', 'D', 'IY0', 'OW2', 'Z']]",8,"NO PHONETIC SIMILARITY
+",they have radios
+80,0,0,0,1,[],1,"[['AH0', 'N', 'D'], ['AE1', 'N', 'D']]",and,"[('AE1', 'T'), ('N', 'AH0')]","NO STRESS SIMILARITY
+","[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",0,"PHONETIC SIMILARITY
+",to
+81,0,0,1,2,[],1,"[['Y', 'UW1']]",you,"[('Y', 'L'), ('UW1', 'AY1')]","STRESS SIMILARITY
+","[['L', 'AY1', 'K', 'DH', 'AH0'], ['L', 'AY1', 'K', 'DH', 'AH1'], ['L', 'AY1', 'K', 'DH', 'IY0']]",0,"PHONETIC SIMILARITY
+",like the
+82,5,1,1,2,"[('EY1', 'AY1'), ('T', 'K'), ('ER0', 'DH')]",2,"[['L', 'EY1', 'T', 'ER0']]",later,"[('L', 'L'), ('EY1', 'AY1'), ('T', 'K'), ('ER0', 'DH')]","NO STRESS SIMILARITY
+","[['L', 'AY1', 'K', 'DH', 'AH0'], ['L', 'AY1', 'K', 'DH', 'AH1'], ['L', 'AY1', 'K', 'DH', 'IY0']]",4,"PHONETIC SIMILARITY
+",like the
+83,7,3,1,2,"[('R', 'N')]",1,"[['W', 'EH1', 'R'], ['HH', 'W', 'EH1', 'R']]",where,"[('HH', 'HH'), ('W', 'W')]","STRESS SIMILARITY
+","[['W', 'EH1', 'N', 'DH', 'EH1', 'R'], ['HH', 'W', 'EH1', 'N', 'DH', 'EH1', 'R'], ['W', 'IH1', 'N', 'DH', 'EH1', 'R'], ['HH', 'W', 'IH1', 'N', 'DH', 'EH1', 'R']]",4,"PHONETIC SIMILARITY
+",when they're
+84,9,1,0,3,"[('AH2', 'S'), ('N', 'T'), ('D', 'R'), ('ER0', 'AE1'), ('S', 'N'), ('T', 'D'), ('AE1', 'AH0')]",2,"[['AH2', 'N', 'D', 'ER0', 'S', 'T', 'AE1', 'N', 'D']]",understand,"[('AH2', 'S'), ('N', 'T'), ('D', 'R'), ('ER0', 'AE1'), ('S', 'N'), ('T', 'D'), ('AE1', 'IH0')]","NO STRESS SIMILARITY
+","[['S', 'T', 'R', 'AE1', 'N', 'D', 'AH0', 'D'], ['S', 'T', 'R', 'AE1', 'N', 'D', 'IH0', 'D']]",8,"NO PHONETIC SIMILARITY
+",stranded
+85,8,1,1,2,"[('IH1', 'S')]",1,"[['IH1', 'T'], ['IH0', 'T']]",it,"[('T', 'T')]","STRESS SIMILARITY
+","[['S', 'T', 'R', 'AE1', 'N', 'D', 'AH0', 'D'], ['S', 'T', 'R', 'AE1', 'N', 'D', 'IH0', 'D']]",2,"PHONETIC SIMILARITY
+",stranded
+86,0,0,1,1,[],1,"[['AE1', 'T']]",at,"[('AE1', 'L'), ('T', 'AY1')]","STRESS SIMILARITY
+","[['L', 'AY1', 'K']]",0,"PHONETIC SIMILARITY
+",like
+87,0,0,0,1,[],0,[['']],%OMISSION,"[('', 'K')]","NO STRESS SIMILARITY
+","[['K', 'AE1', 'N'], ['K', 'AH0', 'N']]",0,"PHONETIC SIMILARITY
+",can
+88,2,2,1,1,[],1,"[['T', 'UW1']]",two,[],"STRESS SIMILARITY
+","[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",2,"HOMOPHONES
+",to
+89,7,1,1,3,"[('B', 'Y'), ('AE1', 'UW1'), ('T', 'EH1')]",1,"[['B', 'AE1', 'T', 'S']]",bats,"[('B', 'Y'), ('AE1', 'UW1'), ('T', 'EH1'), ('S', 'S')]","STRESS SIMILARITY
+","[['AH1', 'S', 'D', 'AH1', 'Z'], ['AH1', 'S', 'D', 'AH1', 'Z'], ['Y', 'UW1', 'EH1', 'S', 'D', 'IH0', 'Z'], ['Y', 'UW1', 'EH1', 'S', 'D', 'IH0', 'Z']]",4,"NO PHONETIC SIMILARITY
+",us does
+90,3,1,1,1,"[('M', 'L')]",1,"[['M', 'AY1']]",my,"[('M', 'L')]","STRESS SIMILARITY
+","[['L', 'AY1', 'K']]",2,"PHONETIC SIMILARITY
+",like
+91,3,3,1,1,[],1,"[['W', 'IH1', 'L'], ['W', 'AH0', 'L']]",will,[],"STRESS SIMILARITY
+","[['W', 'IY1', 'L'], ['W', 'IH1', 'L']]",3,"HOMOPHONES
+",we'll
+92,0,0,0,0,[],1,[['']],%OMISSION,"[('', 'ER0')]","NO STRESS SIMILARITY
+","[['AO1', 'R'], ['ER0']]",0,"PHONETIC SIMILARITY
+",or
+93,0,0,0,2,[],0,[['']],%OMISSION,"[('', 'K')]","NO STRESS SIMILARITY
+","[['K', 'AE1', 'N', 'W', 'IY1'], ['K', 'AH0', 'N', 'W', 'IY1']]",0,"PHONETIC SIMILARITY
+",can we
+94,0,0,1,2,[],1,"[['Y', 'UW1']]",you,"[('Y', 'K'), ('UW1', 'AH0')]","STRESS SIMILARITY
+","[['K', 'AE1', 'N', 'W', 'IY1'], ['K', 'AH0', 'N', 'W', 'IY1']]",0,"PHONETIC SIMILARITY
+",can we
+95,0,0,0,1,[],0,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'No arpabet available')]","NO STRESS SIMILARITY
+",[['No arpabet available']],0,"PHONETIC SIMILARITY
+",%ADDITION
+96,10,1,1,3,"[('AH1', 'EH1'), ('T', 'L')]",1,"[['W', 'AH1', 'T'], ['HH', 'W', 'AH1', 'T']]",what,"[('HH', 'W'), ('W', 'EH1'), ('AH1', 'L')]","STRESS SIMILARITY
+","[['W', 'EH1', 'L', 'DH', 'EH1', 'N', 'L', 'EH1', 'T', 'S']]",3,"NO PHONETIC SIMILARITY
+",well then let's
+97,0,0,1,1,[],1,"[['Y', 'UW1']]",you,"[('Y', 'W'), ('UW1', 'IY1')]","STRESS SIMILARITY
+","[['W', 'IY1']]",0,"PHONETIC SIMILARITY
+",we
+98,4,2,1,1,"[('Y', 'Y')]",2,"[['Y', 'AO1', 'R'], ['Y', 'UH1', 'R']]",your,"[('UH1', 'AE1'), ('R', 'ER0')]","STRESS SIMILARITY
+","[['Y', 'AE1', 'AO1', 'R'], ['Y', 'AE1', 'ER0']]",3,"MINOR LEXICAL
+",yeah or
+99,7,2,1,3,"[('EH1', 'AH0'), ('R', 'IH1')]",2,"[['EH1', 'V', 'R', 'IY0', 'TH', 'IH2', 'NG']]",everything,"[('EH1', 'AH0'), ('R', 'IH1')]","NO STRESS SIMILARITY
+","[['AH0', 'TH', 'IH1', 'NG'], ['EY1', 'TH', 'IH1', 'NG']]",4,"PHONETIC SIMILARITY
+",a thing
+100,3,2,1,1,[],1,"[['DH', 'AE1', 'T'], ['DH', 'AH0', 'T']]",that,[],"STRESS SIMILARITY
+","[['AE1', 'T']]",2,"PHONETIC SIMILARITY
+",at
+101,2,1,1,1,"[('AA1', 'AO1')]",1,"[['AA1', 'R'], ['ER0']]",are,[],"STRESS SIMILARITY
+","[['AO1', 'R'], ['ER0']]",2,"HOMOPHONES
+",or
+102,3,1,1,1,"[('Z', 'T')]",1,"[['IH1', 'Z'], ['IH0', 'Z']]",is,"[('Z', 'T')]","STRESS SIMILARITY
+","[['IH1', 'T', 'S'], ['IH0', 'T', 'S']]",2,"PHONETIC SIMILARITY
+",it's
+103,2,1,1,1,"[('AE1', 'IH0')]",1,"[['AE1', 'N'], ['AH0', 'N']]",an,"[('AH0', 'IH0')]","STRESS SIMILARITY
+","[['IH0', 'N'], ['IH1', 'N']]",2,"PHONETIC SIMILARITY
+",in
+104,8,2,2,3,"[('AH0', 'Z'), ('L', 'L')]",2,"[['IY1', 'Z', 'AH0', 'L']]",easel,"[('IY1', 'DH'), ('Z', 'IY1')]","STRESS SIMILARITY
+","[['DH', 'IY1', 'Z', 'L', 'IH1', 'T', 'AH0', 'L']]",4,"PHONETIC SIMILARITY
+",these little
+105,2,2,1,1,[],1,"[['W', 'ER0'], ['W', 'ER1']]",were,[],"STRESS SIMILARITY
+","[['W', 'IY1', 'R'], ['W', 'IH1', 'R'], ['W', 'ER1']]",2,"HOMOPHONES
+",we're
+106,5,3,1,2,[],1,"[['D', 'AO1', 'G']]",dog,[],"STRESS SIMILARITY
+","[['D', 'AO1', 'G', 'IY0', 'Z']]",3,"MINOR LEXICAL
+",doggies
+107,0,0,1,2,[],1,"[['Y', 'UW1']]",you,"[('Y', 'D'), ('UW1', 'AO1')]","STRESS SIMILARITY
+","[['D', 'AO1', 'G', 'IY0', 'Z']]",0,"PHONETIC SIMILARITY
+",doggies
+108,0,0,1,1,[],1,"[['S', 'OW1']]",so,"[('S', 'DH'), ('OW1', 'AE1')]","STRESS SIMILARITY
+","[['DH', 'AE1', 'T'], ['DH', 'AH0', 'T']]",0,"PHONETIC SIMILARITY
+",that
+109,6,4,2,3,"[('D', 'N')]",2,"[['S', 'AE1', 'T', 'ER0', 'D', 'IY0'], ['S', 'AE1', 'T', 'IH2', 'D', 'EY2']]",Saturday,"[('D', 'N')]","STRESS SIMILARITY
+","[['S', 'AE1', 'T', 'ER0', 'N']]",5,"MINOR LEXICAL
+",Saturn
+110,0,0,0,3,[],0,[['No arpabet available']],naggers,"[('No arpabet available', 'AY1')]","NO STRESS SIMILARITY
+","[['AY1', 'AH0', 'G', 'R', 'IY1']]",0,"PHONETIC SIMILARITY
+",I agree
+111,0,0,0,1,[],1,"[['AH1', 'V'], ['AH0', 'V']]",of,"[('AH0', 'DH'), ('V', 'OW1')]","NO STRESS SIMILARITY
+","[['DH', 'OW1']]",0,"PHONETIC SIMILARITY
+",though
+112,5,4,1,2,"[('AO2', 'AY1')]",2,"[['AO2', 'L', 'R', 'AY1', 'T']]",alright,"[('AO2', 'AY1')]","NO STRESS SIMILARITY
+","[['AY1', 'L', 'R', 'AY1', 'T']]",5,"MINOR LEXICAL
+",I'll write
+113,0,0,0,1,[],0,[['']],%OMISSION,"[('', 'D')]","NO STRESS SIMILARITY
+","[['D', 'AW1', 'N']]",0,"PHONETIC SIMILARITY
+",down
+114,0,0,1,1,[],1,"[['DH', 'EY1']]",they,"[('DH', 'W'), ('EY1', 'IY1')]","STRESS SIMILARITY
+","[['W', 'IY1']]",0,"PHONETIC SIMILARITY
+",we
+115,5,4,1,1,[],1,"[['F', 'L', 'EH1', 'R']]",flair,[],"STRESS SIMILARITY
+","[['F', 'L', 'EH1', 'R', 'Z']]",4,"MINOR LEXICAL
+",flares
+116,4,2,1,2,[],1,"[['AO1', 'R', 'D', 'ER0']]",order,[],"STRESS SIMILARITY
+","[['AO1', 'R']]",2,"PHONETIC SIMILARITY
+",oar
+117,3,1,1,1,"[('IH1', 'HH')]",1,"[['IH1', 'Z'], ['IH0', 'Z']]",is,"[('IH1', 'HH')]","STRESS SIMILARITY
+","[['HH', 'IY1', 'Z']]",2,"PHONETIC SIMILARITY
+",he's
+118,2,1,1,1,"[('DH', 'T')]",1,"[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",the,"[('DH', 'T'), ('IY0', 'AH0')]","STRESS SIMILARITY
+","[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",2,"PHONETIC SIMILARITY
+",to
+119,3,2,1,1,"[('EY1', 'AY1')]",1,"[['L', 'EY1', 'K']]",lake,"[('EY1', 'AY1')]","STRESS SIMILARITY
+","[['L', 'AY1', 'K']]",3,"MINOR LEXICAL
+",like
+120,3,1,1,1,"[('DH', 'L'), ('AE1', 'IH1')]",1,"[['DH', 'AE1', 'T'], ['DH', 'AH0', 'T']]",that,"[('DH', 'L'), ('AE1', 'IH1')]","STRESS SIMILARITY
+","[['L', 'IH1', 'T']]",3,"MINOR LEXICAL
+",lit
+121,0,0,1,1,[],1,"[['Y', 'UW1']]",you,"[('Y', 'W'), ('UW1', 'IY1')]","STRESS SIMILARITY
+","[['W', 'IY1']]",0,"PHONETIC SIMILARITY
+",we
+122,0,0,0,3,[],0,[['No arpabet available']],Kaby,"[('No arpabet available', 'DH')]","NO STRESS SIMILARITY
+","[['DH', 'EY1', 'K', 'UH1', 'D', 'B', 'IY1'], ['DH', 'EY1', 'K', 'UH1', 'D', 'B', 'IY0']]",0,"PHONETIC SIMILARITY
+",they could be
+123,3,2,1,1,"[('EY1', 'AY1')]",1,"[['L', 'EY1', 'K']]",lake,"[('EY1', 'AY1')]","STRESS SIMILARITY
+","[['L', 'AY1', 'K']]",3,"MINOR LEXICAL
+",like
+124,5,4,0,2,"[('UH0', 'UH1')]",2,"[['AA1', 'R', 'T', 'UH0', 'R']]",Artur,"[('UH0', 'UH1')]","NO STRESS SIMILARITY
+","[['AW1', 'ER0', 'T', 'UH1', 'R'], ['AW1', 'R', 'T', 'UH1', 'R'], ['AA1', 'R', 'T', 'UH1', 'R']]",5,"HOMOPHONES
+",our tour
+125,6,3,1,2,"[('AH0', 'IH1'), ('N', 'T')]",2,"[['D', 'AH1', 'Z', 'AH0', 'N', 'T'], ['D', 'AH1', 'Z', 'AH0', 'N']]",doesn't,"[('AH1', 'IH0'), ('AH0', 'IH0'), ('N', 'T')]","NO STRESS SIMILARITY
+","[['D', 'AH1', 'Z', 'IH1', 'T'], ['D', 'AH1', 'Z', 'IH1', 'T'], ['D', 'IH0', 'Z', 'IH0', 'T'], ['D', 'IH0', 'Z', 'IH0', 'T']]",5,"MINOR LEXICAL
+",does it
+126,7,1,0,3,"[('IH1', 'R'), ('CH', 'W'), ('ER0', 'IY1'), ('D', 'SH')]",2,"[['R', 'IH1', 'CH', 'ER0', 'D']]",Richard,"[('R', 'ER0'), ('IH1', 'W'), ('CH', 'IY1'), ('ER0', 'SH'), ('D', 'UH1')]","NO STRESS SIMILARITY
+","[['AA1', 'R', 'W', 'IY1', 'SH', 'UH1', 'R'], ['ER0', 'W', 'IY1', 'SH', 'UH1', 'R']]",5,"NO PHONETIC SIMILARITY
+",are we sure
+127,5,1,1,2,"[('AA1', 'F')]",1,"[['AA1', 'N'], ['AO1', 'N']]",on,"[('AO1', 'F')]","STRESS SIMILARITY
+","[['F', 'EH1', 'L', 'IH0', 'N'], ['F', 'EH1', 'L', 'IH1', 'N']]",2,"PHONETIC SIMILARITY
+",fell in
+128,0,0,1,1,[],1,"[['AH1', 'V'], ['AH0', 'V']]",of,"[('AH1', 'AO1'), ('V', 'N')]","STRESS SIMILARITY
+","[['AA1', 'N'], ['AO1', 'N']]",0,"PHONETIC SIMILARITY
+",on
+129,2,1,1,1,[],1,"[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",the,"[('DH', 'AH0')]","STRESS SIMILARITY
+","[['AH0'], ['EY1']]",1,"PHONETIC SIMILARITY
+",a
+130,4,3,1,1,"[('AO1', 'AA1')]",1,"[['S', 'T', 'AO1', 'R']]",store,"[('AO1', 'AA1')]","STRESS SIMILARITY
+","[['S', 'T', 'AA1', 'R']]",4,"MINOR LEXICAL
+",star
+131,10,2,3,4,"[('EH1', 'AE1'), ('AH0', 'AH0'), ('F', 'L'), ('OW2', 'AY2'), ('N', 'T')]",3,"[['T', 'EH1', 'L', 'AH0', 'F', 'OW2', 'N']]",telephone,"[('T', 'S'), ('EH1', 'AE1'), ('L', 'T'), ('F', 'L'), ('OW2', 'AY2'), ('N', 'T')]","STRESS SIMILARITY
+","[['S', 'AE1', 'T', 'AH0', 'L', 'AY2', 'T', 'F', 'OW1', 'N']]",7,"NO PHONETIC SIMILARITY
+",satellite phone
+132,4,1,1,2,"[('UW1', 'T')]",1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'IH1')]","STRESS SIMILARITY
+","[['IH1', 'T', 'S', 'AH0'], ['IH1', 'T', 'S', 'AH0'], ['IH0', 'T', 'S', 'EY1'], ['IH0', 'T', 'S', 'EY1']]",2,"PHONETIC SIMILARITY
+",it's a
+133,0,0,0,3,[],0,[['No arpabet available']],Suliman,"[('No arpabet available', 'S')]","NO STRESS SIMILARITY
+","[['S', 'OW1', 'AH0', 'M', 'UW1', 'N'], ['S', 'OW1', 'EY1', 'M', 'UW1', 'N']]",0,"PHONETIC SIMILARITY
+",so a moon
+134,6,2,1,2,"[('EH1', 'AE1')]",1,"[['T', 'EH1', 'S', 'T', 'IH0', 'NG']]",testing,"[('EH1', 'AA1'), ('S', 'NG')]","STRESS SIMILARITY
+","[['T', 'AE1', 'NG'], ['T', 'AA1', 'NG']]",3,"PHONETIC SIMILARITY
+",Tang
+135,7,3,1,2,"[('G', 'IH1'), ('AH0', 'Z')]",2,"[['T', 'AE1', 'NG', 'G', 'AH0', 'L', 'Z']]",tangles,"[('T', 'T'), ('AE1', 'AA1'), ('NG', 'NG'), ('G', 'IH0'), ('AH0', 'Z')]","NO STRESS SIMILARITY
+","[['T', 'AE1', 'NG', 'IH1', 'Z'], ['T', 'AE1', 'NG', 'IH1', 'Z'], ['T', 'AA1', 'NG', 'IH0', 'Z'], ['T', 'AA1', 'NG', 'IH0', 'Z']]",5,"PHONETIC SIMILARITY
+",Tang is
+136,3,1,1,1,"[('IH1', 'AH1'), ('DH', 'T')]",1,"[['W', 'IH1', 'DH'], ['W', 'IH1', 'TH'], ['W', 'IH0', 'TH'], ['W', 'IH0', 'DH']]",with,"[('IH1', 'W'), ('TH', 'AH1')]","STRESS SIMILARITY
+","[['W', 'AH1', 'T'], ['HH', 'W', 'AH1', 'T']]",3,"MINOR LEXICAL
+",what
+137,9,3,2,3,"[('EH1', 'AE1'), ('S', 'S'), ('T', 'T'), ('M', 'AH0'), ('AH0', 'N')]",3,"[['EH1', 'S', 'T', 'AH0', 'M', 'AH0', 'T', 'S'], ['EH1', 'S', 'T', 'AH0', 'M', 'EY2', 'T', 'S']]",estimates,"[('EH1', 'AE1'), ('S', 'S'), ('T', 'T'), ('M', 'AH0'), ('EY2', 'N')]","NO STRESS SIMILARITY
+","[['AE1', 'S', 'T', 'R', 'AH0', 'N', 'AO2', 'T', 'S']]",8,"PHONETIC SIMILARITY
+",astronauts
+138,9,2,1,4,"[('S', 'S')]",1,"[['S', 'AH1', 'M']]",some,"[('S', 'S'), ('AH1', 'OW1'), ('M', 'DH')]","STRESS SIMILARITY
+","[['S', 'OW1', 'DH', 'AH0', 'M', 'UW1', 'N', 'IH1', 'Z'], ['S', 'OW1', 'DH', 'AH0', 'M', 'UW1', 'N', 'IH1', 'Z'], ['S', 'OW1', 'DH', 'AH1', 'M', 'UW1', 'N', 'IH1', 'Z'], ['S', 'OW1', 'DH', 'AH1', 'M', 'UW1', 'N', 'IH0', 'Z'], ['S', 'OW1', 'DH', 'IY0', 'M', 'UW1', 'N', 'IH0', 'Z'], ['S', 'OW1', 'DH', 'IY0', 'M', 'UW1', 'N', 'IH0', 'Z']]",3,"PHONETIC SIMILARITY
+",so the moon is
+139,3,1,1,2,[],1,"[['AA1', 'R'], ['ER0']]",are,[],"STRESS SIMILARITY
+","[['IY1', 'DH', 'ER0'], ['AY1', 'DH', 'ER0']]",1,"PHONETIC SIMILARITY
+",either
+140,2,1,1,1,[],1,"[['M', 'AY1']]",my,[],"STRESS SIMILARITY
+",[['AY1']],1,"PHONETIC SIMILARITY
+",I
+141,7,1,0,3,"[('D', 'AH0'), ('IH1', 'G'), ('AH0', 'IY1'), ('S', 'W'), ('T', 'IH1')]",2,"[['D', 'IH1', 'R', 'AH0', 'S', 'T']]",dearest,"[('D', 'AH0'), ('IH1', 'G'), ('R', 'R'), ('AH0', 'IY1'), ('S', 'W'), ('T', 'IH0')]","NO STRESS SIMILARITY
+","[['AH0', 'G', 'R', 'IY1', 'W', 'IH1', 'DH'], ['AH0', 'G', 'R', 'IY1', 'W', 'IH1', 'TH'], ['AH0', 'G', 'R', 'IY1', 'W', 'IH0', 'TH'], ['AH0', 'G', 'R', 'IY1', 'W', 'IH0', 'DH']]",6,"NO PHONETIC SIMILARITY
+",agree with
+142,3,2,1,1,"[('IH1', 'EH1')]",1,"[['W', 'IH1', 'L'], ['W', 'AH0', 'L']]",will,"[('IH1', 'EH1')]","STRESS SIMILARITY
+","[['W', 'EH1', 'L']]",3,"MINOR LEXICAL
+",well
+143,5,2,1,3,"[('V', 'R'), ('IH1', 'EY1'), ('OW0', 'OW2')]",3,"[['V', 'IH1', 'D', 'IY0', 'OW0']]",video,"[('V', 'R'), ('IH1', 'EY1'), ('OW0', 'OW2')]","NO STRESS SIMILARITY
+","[['R', 'EY1', 'D', 'IY0', 'OW2']]",5,"MINOR LEXICAL
+",radio
+144,5,4,1,1,[],1,"[['W', 'IH1', 'N', 'D', 'Z'], ['W', 'AY1', 'N', 'D', 'Z']]",winds,"[('AY1', 'IH1')]","STRESS SIMILARITY
+","[['W', 'AY1', 'N', 'D'], ['W', 'IH1', 'N', 'D']]",4,"MINOR LEXICAL
+",wind
+145,2,2,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,[],"STRESS SIMILARITY
+","[['T', 'UW1']]",2,"HOMOPHONES
+",too
+146,4,1,1,1,"[('S', 'TH'), ('EH1', 'IH1')]",1,"[['S', 'EH1', 'N', 'D']]",send,"[('S', 'TH'), ('EH1', 'IH1')]","STRESS SIMILARITY
+","[['TH', 'IH1', 'N']]",3,"PHONETIC SIMILARITY
+",thin
+147,2,1,1,1,[],1,"[['AY1', 'M'], ['AH0', 'M']]",I'm,[],"STRESS SIMILARITY
+","[['AH0'], ['EY1']]",1,"PHONETIC SIMILARITY
+",a
+148,5,2,1,2,"[('V', 'N')]",1,"[['M', 'UW1', 'V', 'IH0', 'NG']]",moving,"[('V', 'N')]","STRESS SIMILARITY
+","[['M', 'UW1', 'N']]",3,"PHONETIC SIMILARITY
+",moon
+149,4,3,2,2,[],2,"[['OW1', 'V', 'ER0']]",over,[],"STRESS SIMILARITY
+","[['R', 'OW1', 'V', 'ER0']]",3,"MINOR LEXICAL
+",rover
+150,3,1,1,1,"[('AY1', 'EH1'), ('M', 'N')]",1,"[['T', 'AY1', 'M']]",time,"[('AY1', 'EH1'), ('M', 'N')]","STRESS SIMILARITY
+","[['T', 'EH1', 'N']]",3,"MINOR LEXICAL
+",ten
+151,5,4,2,2,"[('D', 'T')]",2,"[['AH0', 'T', 'EH1', 'N', 'D']]",attend,"[('D', 'T')]","STRESS SIMILARITY
+","[['AH0', 'T', 'EH1', 'N', 'T'], ['EY1', 'T', 'EH1', 'N', 'T']]",5,"MINOR LEXICAL
+",a tent
+152,2,1,1,1,[],1,"[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",the,"[('DH', 'AH0')]","STRESS SIMILARITY
+","[['AH0'], ['EY1']]",1,"PHONETIC SIMILARITY
+",a
+153,8,7,2,2,[],2,"[['K', 'AA1', 'N', 'T', 'AE2', 'K', 'T', 'S'], ['K', 'AA1', 'N', 'T', 'AE2', 'K', 'S']]",contacts,"[('S', 'T')]","STRESS SIMILARITY
+","[['K', 'AA1', 'N', 'T', 'AE2', 'K', 'T']]",7,"MINOR LEXICAL
+",contact
+154,4,4,1,1,[],1,"[['F', 'L', 'EH1', 'R']]",flair,[],"STRESS SIMILARITY
+","[['F', 'L', 'EH1', 'R']]",4,"HOMOPHONES
+",flare
+155,0,0,0,2,[],0,[['No arpabet available']],Priya,"[('No arpabet available', 'B')]","NO STRESS SIMILARITY
+","[['B', 'R', 'IY1', 'AH0']]",0,"PHONETIC SIMILARITY
+",Bria
+156,4,2,0,1,"[('IH1', 'P'), ('K', 'EY1')]",1,"[['S', 'IH1', 'K', 'S']]",six,"[('IH1', 'P'), ('K', 'EY1')]","NO STRESS SIMILARITY
+","[['S', 'P', 'EY1', 'S']]",4,"MINOR LEXICAL
+",space
+157,3,2,1,1,[],1,"[['F', 'AO1', 'R'], ['F', 'ER0'], ['F', 'R', 'ER0']]",for,[],"STRESS SIMILARITY
+","[['AO1', 'R'], ['ER0']]",2,"PHONETIC SIMILARITY
+",or
+158,0,0,0,0,[],1,[['']],%OMISSION,"[('', 'ER0')]","NO STRESS SIMILARITY
+","[['AO1', 'R'], ['ER0']]",0,"PHONETIC SIMILARITY
+",or
+159,0,0,0,1,[],0,[['']],%OMISSION,"[('', 'IH0')]","NO STRESS SIMILARITY
+","[['IH1', 'T'], ['IH0', 'T']]",0,"PHONETIC SIMILARITY
+",it
+160,0,0,1,1,[],1,"[['DH', 'EY1']]",they,"[('DH', 'W'), ('EY1', 'IY1')]","STRESS SIMILARITY
+","[['W', 'IY1']]",0,"PHONETIC SIMILARITY
+",we
+161,3,1,1,1,"[('AH0', 'IH1')]",1,"[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",the,"[('IY0', 'IH0')]","STRESS SIMILARITY
+","[['DH', 'IH1', 'S'], ['DH', 'IH0', 'S']]",2,"PHONETIC SIMILARITY
+",this
+162,3,2,1,1,"[('AE1', 'EH1')]",1,"[['DH', 'AE1', 'N'], ['DH', 'AH0', 'N']]",than,"[('AE1', 'EH1')]","STRESS SIMILARITY
+","[['DH', 'EH1', 'N']]",3,"MINOR LEXICAL
+",then
+163,3,1,1,1,"[('T', 'S')]",1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'S')]","STRESS SIMILARITY
+","[['S', 'UW1', 'T']]",2,"PHONETIC SIMILARITY
+",suit
+164,0,0,0,1,[],1,"[['AH0', 'N', 'D'], ['AE1', 'N', 'D']]",and,"[('AE1', 'DH'), ('N', 'EH1'), ('D', 'N')]","NO STRESS SIMILARITY
+","[['DH', 'EH1', 'N']]",0,"PHONETIC SIMILARITY
+",then
+165,5,1,1,2,"[('AY1', 'EY1'), ('T', 'D'), ('ER0', 'AA2')]",2,"[['R', 'AY1', 'T', 'ER0']]",writer,"[('AY1', 'EY1'), ('T', 'D'), ('ER0', 'AA2')]","NO STRESS SIMILARITY
+","[['R', 'EY1', 'D', 'AA2', 'R']]",4,"PHONETIC SIMILARITY
+",radar
+166,7,1,1,2,"[('G', 'B'), ('OW1', 'L'), ('IH0', 'AE1')]",2,"[['G', 'OW1', 'IH0', 'NG'], ['G', 'OW1', 'IH0', 'N']]",going,"[('G', 'B'), ('OW1', 'L'), ('N', 'NG')]","NO STRESS SIMILARITY
+","[['B', 'L', 'AE1', 'NG', 'K', 'AH0', 'T'], ['B', 'L', 'AE1', 'NG', 'K', 'IH0', 'T']]",4,"NO PHONETIC SIMILARITY
+",blanket
+167,0,0,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'DH'), ('UW1', 'EH1')]","STRESS SIMILARITY
+","[['DH', 'EH1', 'N']]",0,"PHONETIC SIMILARITY
+",then
+168,0,0,0,1,[],0,[['No arpabet available']],Lynnfield,"[('No arpabet available', 'F')]","NO STRESS SIMILARITY
+","[['F', 'Y', 'UW1', 'AH0', 'L'], ['F', 'Y', 'UW1', 'L']]",0,"PHONETIC SIMILARITY
+",fuel
+169,5,1,1,1,"[('AH1', 'IY1'), ('N', 'R')]",2,"[['W', 'AH1', 'N'], ['HH', 'W', 'AH1', 'N']]",one,"[('HH', 'W'), ('W', 'ER1'), ('AH1', 'AO1')]","STRESS SIMILARITY
+","[['W', 'IY1', 'R', 'AA1', 'N'], ['W', 'IY1', 'R', 'AA1', 'N'], ['W', 'IH1', 'R', 'AA1', 'N'], ['W', 'IH1', 'R', 'AO1', 'N'], ['W', 'ER1', 'AO1', 'N'], ['W', 'ER1', 'AO1', 'N']]",3,"MINOR LEXICAL
+",we're on
+170,7,5,2,2,"[('AH0', 'IH0')]",2,"[['T', 'AW1', 'N', 'Z', 'AH0', 'N', 'D']]",Townsend,"[('AH0', 'IH0')]","STRESS SIMILARITY
+","[['T', 'AW1', 'N', 'Z', 'IH0', 'N'], ['T', 'AW1', 'N', 'Z', 'IH1', 'N']]",6,"MINOR LEXICAL
+",town's in
+171,3,2,1,1,"[('AA1', 'AE1')]",1,"[['HH', 'AA1', 'T']]",hot,"[('AA1', 'AE1')]","STRESS SIMILARITY
+","[['HH', 'AE1', 'T']]",3,"MINOR LEXICAL
+",hat
+172,6,5,2,2,"[('NG', 'N')]",2,"[['HH', 'OW1', 'L', 'D', 'IH0', 'NG']]",holding,"[('NG', 'N')]","STRESS SIMILARITY
+","[['HH', 'OW1', 'L', 'D', 'IH0', 'N'], ['HH', 'OW1', 'L', 'D', 'IH1', 'N']]",6,"MINOR LEXICAL
+",hold in
+173,5,1,1,2,"[('AY1', 'IH1')]",1,"[['AY1', 'L']]",I'll,"[('AY1', 'IH1')]","STRESS SIMILARITY
+","[['IH1', 'T', 'W', 'IH1', 'L'], ['IH1', 'T', 'W', 'IH1', 'L'], ['IH0', 'T', 'W', 'AH0', 'L'], ['IH0', 'T', 'W', 'AH0', 'L']]",2,"PHONETIC SIMILARITY
+",it will
+174,4,2,1,2,"[('D', 'T')]",1,"[['AH0', 'N', 'D'], ['AE1', 'N', 'D']]",and,"[('D', 'T')]","STRESS SIMILARITY
+","[['AE1', 'N', 'T', 'IY0'], ['AE1', 'N', 'T', 'AY0']]",3,"MINOR LEXICAL
+",anti
+175,0,0,2,2,[],2,"[['HH', 'AE1', 'V', 'IH0', 'NG']]",having,"[('HH', 'V'), ('AE1', 'EH1'), ('V', 'N'), ('IH0', 'AH0'), ('NG', 'M')]","STRESS SIMILARITY
+","[['V', 'EH1', 'N', 'AH0', 'M']]",0,"PHONETIC SIMILARITY
+",venom
+176,0,0,0,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'IH1'), ('AH0', 'N')]","NO STRESS SIMILARITY
+","[['IH0', 'N'], ['IH1', 'N']]",0,"PHONETIC SIMILARITY
+",in
+177,0,0,1,1,[],1,"[['M', 'EY1', 'K']]",make,"[('M', 'IH1'), ('EY1', 'N')]","STRESS SIMILARITY
+","[['IH0', 'N'], ['IH1', 'N']]",0,"PHONETIC SIMILARITY
+",in
+178,3,1,1,1,"[('DH', 'K'), ('IH1', 'EY1')]",1,"[['DH', 'IH1', 'S'], ['DH', 'IH0', 'S']]",this,"[('DH', 'K'), ('IH1', 'EY1')]","STRESS SIMILARITY
+","[['K', 'EY1', 'S']]",3,"MINOR LEXICAL
+",case
+179,5,3,1,2,"[('F', 'W'), ('ER0', 'IY1')]",2,"[['F', 'ER0', 'G', 'EH1', 'T'], ['F', 'AO0', 'R', 'G', 'EH1', 'T']]",forget,"[('F', 'W'), ('AO0', 'IY1'), ('G', 'IH1')]","NO STRESS SIMILARITY
+","[['W', 'IY1', 'G', 'EH1', 'T'], ['W', 'IY1', 'G', 'IH1', 'T']]",5,"MINOR LEXICAL
+",we get
+180,5,1,1,2,"[('DH', 'B'), ('AE1', 'IH1')]",1,"[['DH', 'AE1', 'T'], ['DH', 'AH0', 'T']]",that,"[('DH', 'B'), ('T', 'T')]","STRESS SIMILARITY
+","[['B', 'IH1', 'T', 'AH0', 'N']]",3,"PHONETIC SIMILARITY
+",bitten
+181,0,0,1,1,[],1,"[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",the,"[('DH', 'B'), ('AH1', 'AY1')]","STRESS SIMILARITY
+","[['B', 'AY1']]",0,"PHONETIC SIMILARITY
+",by
+182,0,0,0,1,[],0,[['']],%OMISSION,"[('', 'DH')]","NO STRESS SIMILARITY
+","[['DH', 'OW1']]",0,"PHONETIC SIMILARITY
+",though
+183,0,0,0,1,[],0,[['']],%OMISSION,"[('', 'W')]","NO STRESS SIMILARITY
+","[['W', 'UH1', 'D']]",0,"PHONETIC SIMILARITY
+",would
+184,0,0,0,1,[],0,[['']],%OMISSION,"[('', 'B')]","NO STRESS SIMILARITY
+","[['B', 'IY1'], ['B', 'IY0']]",0,"PHONETIC SIMILARITY
+",be
+185,0,0,1,2,[],1,"[['IH1', 'Z'], ['IH0', 'Z']]",is,"[('IH1', 'AY1'), ('Z', 'DH')]","STRESS SIMILARITY
+","[['IY1', 'DH', 'ER0'], ['AY1', 'DH', 'ER0']]",0,"PHONETIC SIMILARITY
+",either
+186,0,0,0,1,[],2,"[['DH', 'EH1', 'R']]",there,"[('DH', 'AY1'), ('EH1', 'DH'), ('R', 'ER0')]","NO STRESS SIMILARITY
+","[['IY1', 'DH', 'ER0'], ['AY1', 'DH', 'ER0']]",0,"PHONETIC SIMILARITY
+",either
+187,5,5,2,2,[],2,"[['S', 'T', 'IH1', 'K', 'ER0']]",sticker,[],"STRESS SIMILARITY
+","[['S', 'T', 'IH1', 'K', 'AO1', 'R'], ['S', 'T', 'IH1', 'K', 'ER0']]",5,"HOMOPHONES
+",stick or
+188,0,0,0,1,[],1,"[['IH0', 'N'], ['IH1', 'N']]",in,"[('IH1', 'DH'), ('N', 'OW1')]","NO STRESS SIMILARITY
+","[['DH', 'OW1']]",0,"PHONETIC SIMILARITY
+",though
+189,5,1,1,2,"[('HH', 'B'), ('IH1', 'IH0')]",1,"[['HH', 'IH1', 'Z'], ['HH', 'IH0', 'Z']]",his,"[('HH', 'B'), ('IH0', 'IH0')]","STRESS SIMILARITY
+","[['B', 'IH0', 'K', 'AO1', 'Z'], ['B', 'IH0', 'K', 'AH1', 'Z'], ['B', 'IH0', 'K', 'AA1', 'Z'], ['B', 'IH0', 'K', 'AH0', 'Z']]",3,"PHONETIC SIMILARITY
+",because
+190,0,0,0,1,[],1,"[['AH0', 'N', 'D'], ['AE1', 'N', 'D']]",and,"[('AE1', 'DH'), ('N', 'EH1'), ('D', 'N')]","NO STRESS SIMILARITY
+","[['DH', 'EH1', 'N']]",0,"PHONETIC SIMILARITY
+",then
+191,3,1,1,1,"[('AE1', 'UH1'), ('N', 'D')]",1,"[['K', 'AE1', 'N'], ['K', 'AH0', 'N']]",can,"[('AE1', 'UH1'), ('N', 'D')]","STRESS SIMILARITY
+","[['K', 'UH1', 'D']]",3,"MINOR LEXICAL
+",could
+192,3,1,1,1,"[('EH1', 'AH0')]",1,"[['DH', 'EH1', 'R']]",their,"[('EH1', 'AH1')]","STRESS SIMILARITY
+","[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",2,"PHONETIC SIMILARITY
+",the
+193,2,1,1,1,"[('L', 'D')]",1,"[['AY1', 'L']]",I'll,"[('L', 'D')]","STRESS SIMILARITY
+","[['AY1', 'D']]",2,"PHONETIC SIMILARITY
+",I'd
+194,3,1,1,1,"[('T', 'W')]",1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'W'), ('AH0', 'IH0')]","STRESS SIMILARITY
+","[['W', 'IH1', 'DH'], ['W', 'IH1', 'TH'], ['W', 'IH0', 'TH'], ['W', 'IH0', 'DH']]",2,"PHONETIC SIMILARITY
+",with
+195,2,1,1,1,"[('M', 'D')]",1,"[['AY1', 'M'], ['AH0', 'M']]",I'm,"[('M', 'D')]","STRESS SIMILARITY
+","[['AY1', 'D']]",2,"PHONETIC SIMILARITY
+",I'd
+196,4,2,2,2,"[('UW1', 'AY1'), ('NG', 'N')]",2,"[['D', 'UW1', 'IH0', 'NG']]",doing,"[('UW1', 'AY1'), ('NG', 'N')]","STRESS SIMILARITY
+","[['D', 'AY1', 'IH0', 'N'], ['D', 'AY1', 'IH1', 'N']]",4,"MINOR LEXICAL
+",die in
+197,0,0,0,3,[],3,"[['F', 'AY1', 'N', 'AH0', 'L', 'IY0']]",finally,"[('F', 'EY1'), ('AY1', 'F'), ('N', 'AY1'), ('AH0', 'N'), ('L', 'AH0'), ('IY0', 'L')]","NO STRESS SIMILARITY
+","[['AH0', 'F', 'AY1', 'N', 'AH0', 'L'], ['EY1', 'F', 'AY1', 'N', 'AH0', 'L']]",0,"PHONETIC SIMILARITY
+",a final
+198,3,1,1,1,"[('HH', 'Y'), ('IY1', 'IH1')]",1,"[['HH', 'IY1', 'R']]",here,"[('HH', 'Y'), ('IY1', 'IH1')]","STRESS SIMILARITY
+","[['Y', 'IH1', 'R']]",3,"MINOR LEXICAL
+",year
+199,0,0,0,1,[],0,"[['AE1', 'T']]",at,"[('AE1', 'Filler')]","NO STRESS SIMILARITY
+",[['Filler']],0,"PHONETIC SIMILARITY
+",%HESITATION
+200,6,1,1,2,"[('AY1', 'AE1')]",1,"[['M', 'AY1']]",my,"[('AY1', 'AE1')]","STRESS SIMILARITY
+","[['M', 'AE1', 'S', 'T', 'ER0', 'Z']]",2,"PHONETIC SIMILARITY
+",masters
+201,13,4,2,4,"[('S', 'M'), ('IH1', 'AE1')]",2,"[['S', 'IH1', 'S', 'T', 'ER0', 'Z']]",sisters,"[('S', 'M'), ('IH1', 'AE1')]","STRESS SIMILARITY
+","[['M', 'AE1', 'S', 'T', 'ER0', 'Z', 'S', 'T', 'UW1', 'D', 'AH0', 'N', 'T']]",6,"PHONETIC SIMILARITY
+",masters student
+202,3,1,1,1,"[('AH0', 'IH0')]",1,"[['AH0', 'N', 'D'], ['AE1', 'N', 'D']]",and,"[('AE1', 'IH1')]","STRESS SIMILARITY
+","[['IH0', 'N'], ['IH1', 'N']]",2,"PHONETIC SIMILARITY
+",in
+203,7,1,1,3,"[('D', 'T'), ('IH0', 'UW1'), ('V', 'R'), ('ZH', 'CH')]",2,"[['D', 'IH0', 'V', 'IH1', 'ZH', 'AH0', 'N'], ['D', 'IH0', 'V', 'IH1', 'S', 'AH0', 'N']]",divison,"[('D', 'T'), ('IH0', 'UW1'), ('V', 'R'), ('S', 'CH')]","NO STRESS SIMILARITY
+","[['T', 'UW1', 'R', 'IH1', 'CH']]",5,"NO PHONETIC SIMILARITY
+",too rich
+204,2,2,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,[],"STRESS SIMILARITY
+","[['T', 'UW1']]",2,"HOMOPHONES
+",too
+205,0,0,0,1,[],0,[['No arpabet available']],10,"[('No arpabet available', 'TH')]","NO STRESS SIMILARITY
+","[['TH', 'IH1', 'N']]",0,"PHONETIC SIMILARITY
+",thin
+206,2,2,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,[],"STRESS SIMILARITY
+","[['T', 'UW1']]",2,"HOMOPHONES
+",too
+207,0,0,0,1,[],0,[['No arpabet available']],10,"[('No arpabet available', 'TH')]","NO STRESS SIMILARITY
+","[['TH', 'IH1', 'N']]",0,"PHONETIC SIMILARITY
+",thin
+208,0,0,1,1,[],1,"[['K', 'AE1', 'N'], ['K', 'AH0', 'N']]",can,"[('K', 'TH'), ('AE1', 'IH1'), ('N', 'NG')]","STRESS SIMILARITY
+","[['TH', 'IH1', 'NG', 'K']]",0,"PHONETIC SIMILARITY
+",think
+209,4,2,1,1,"[('N', 'ER0')]",1,"[['F', 'AY1', 'N', 'D']]",find,"[('N', 'R')]","STRESS SIMILARITY
+","[['F', 'AY1', 'ER0'], ['F', 'AY1', 'R']]",3,"MINOR LEXICAL
+",fire
+210,0,0,0,1,[],0,[['No arpabet available']],Yatch,"[('No arpabet available', 'Y')]","NO STRESS SIMILARITY
+","[['Y', 'AA1', 'T']]",0,"PHONETIC SIMILARITY
+",yacht
+211,3,2,1,1,"[('L', 'ER0')]",1,"[['F', 'AY1', 'L']]",file,"[('L', 'R')]","STRESS SIMILARITY
+","[['F', 'AY1', 'ER0'], ['F', 'AY1', 'R']]",3,"MINOR LEXICAL
+",fire
+212,3,1,1,1,"[('AH0', 'AA1')]",1,"[['AH0', 'N', 'D'], ['AE1', 'N', 'D']]",and,"[('AE1', 'AO1')]","STRESS SIMILARITY
+","[['AA1', 'N'], ['AO1', 'N']]",2,"PHONETIC SIMILARITY
+",on
+213,5,1,1,2,"[('EY1', 'AH0')]",1,"[['DH', 'EY1']]",they,"[('DH', 'DH'), ('EY1', 'IY0')]","STRESS SIMILARITY
+","[['DH', 'AH0', 'Y', 'AA1', 'T'], ['DH', 'AH1', 'Y', 'AA1', 'T'], ['DH', 'IY0', 'Y', 'AA1', 'T']]",2,"PHONETIC SIMILARITY
+",the yacht
+214,3,2,1,1,"[('K', 'W')]",1,"[['K', 'UH1', 'D']]",could,"[('K', 'W')]","STRESS SIMILARITY
+","[['W', 'UH1', 'D']]",3,"MINOR LEXICAL
+",would
+215,4,1,1,2,"[('G', 'K'), ('T', 'R')]",1,"[['G', 'EH1', 'T'], ['G', 'IH1', 'T']]",get,"[('G', 'K'), ('IH1', 'EH1'), ('T', 'R')]","STRESS SIMILARITY
+","[['K', 'AE1', 'R', 'IY0'], ['K', 'EH1', 'R', 'IY0']]",3,"PHONETIC SIMILARITY
+",carry
+216,6,2,1,2,"[('F', 'F'), ('AO1', 'ER1')]",1,"[['F', 'AO1', 'R', 'AH0', 'S', 'T'], ['F', 'AO1', 'R', 'IH0', 'S', 'T']]",forest,"[('AO1', 'ER1'), ('R', 'S'), ('IH0', 'T')]","STRESS SIMILARITY
+","[['F', 'ER1', 'S', 'T']]",4,"PHONETIC SIMILARITY
+",first
+217,4,1,1,1,"[('AO1', 'ER1'), ('R', 'S'), ('S', 'T')]",1,"[['F', 'AO1', 'R', 'S']]",force,"[('AO1', 'ER1'), ('R', 'S'), ('S', 'T')]","STRESS SIMILARITY
+","[['F', 'ER1', 'S', 'T']]",4,"PHONETIC SIMILARITY
+",first
+218,0,0,0,2,[],0,[['No arpabet available']],22,"[('No arpabet available', 'T')]","NO STRESS SIMILARITY
+","[['T', 'R', 'UW1', 'T', 'R', 'UW1']]",0,"PHONETIC SIMILARITY
+",true true
+219,3,1,1,1,"[('UW1', 'R')]",1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'T')]","STRESS SIMILARITY
+","[['T', 'R', 'UW1']]",2,"PHONETIC SIMILARITY
+",true
+220,0,0,0,1,[],0,"[['AY1', 'L']]",I'll,"[('AY1', 'No arpabet available')]","NO STRESS SIMILARITY
+",[['No arpabet available']],0,"PHONETIC SIMILARITY
+",%ADDITION
+221,4,1,1,1,"[('IY1', 'R')]",1,"[['B', 'IY1'], ['B', 'IY0']]",be,"[('B', 'B'), ('IY1', 'R')]","STRESS SIMILARITY
+","[['B', 'R', 'IH1', 'NG']]",2,"PHONETIC SIMILARITY
+",bring
+222,4,1,1,2,"[('G', 'K'), ('T', 'R')]",1,"[['G', 'EH1', 'T'], ['G', 'IH1', 'T']]",get,"[('G', 'K'), ('IH1', 'EH1'), ('T', 'R')]","STRESS SIMILARITY
+","[['K', 'AE1', 'R', 'IY0'], ['K', 'EH1', 'R', 'IY0']]",3,"PHONETIC SIMILARITY
+",carry
+223,0,0,0,1,[],1,"[['AH0', 'N', 'D'], ['AE1', 'N', 'D']]",and,"[('AE1', 'DH'), ('N', 'EH1'), ('D', 'N')]","NO STRESS SIMILARITY
+","[['DH', 'EH1', 'N']]",0,"PHONETIC SIMILARITY
+",then
+224,0,0,0,1,[],0,[['AY1']],I,"[('AY1', 'Filler')]","NO STRESS SIMILARITY
+",[['Filler']],0,"PHONETIC SIMILARITY
+",%HESITATION
+225,0,0,0,2,[],0,[['No arpabet available']],fiche,"[('No arpabet available', 'W')]","NO STRESS SIMILARITY
+","[['W', 'IY1', 'SH', 'UH1', 'D']]",0,"PHONETIC SIMILARITY
+",we should
+226,0,0,1,1,[],1,"[['Y', 'UW1']]",you,"[('Y', 'SH'), ('UW1', 'UH1')]","STRESS SIMILARITY
+","[['SH', 'UH1', 'D']]",0,"PHONETIC SIMILARITY
+",should
+227,5,1,1,3,"[('IY1', 'EY1')]",1,"[['S', 'IY1']]",see,"[('S', 'S'), ('IY1', 'EY1')]","STRESS SIMILARITY
+","[['S', 'EY1', 'V', 'AH1', 'S'], ['S', 'EY1', 'V', 'Y', 'UW1', 'EH1', 'S']]",2,"PHONETIC SIMILARITY
+",save us
+228,9,1,1,4,"[('W', 'S'), ('AH1', 'EY1'), ('T', 'V')]",1,"[['W', 'AH1', 'T', 'S'], ['HH', 'W', 'AH1', 'T', 'S']]",what's,"[('HH', 'S'), ('W', 'EY1'), ('AH1', 'V'), ('T', 'Y'), ('S', 'UW1')]","STRESS SIMILARITY
+","[['S', 'EY1', 'V', 'AH1', 'S', 'F', 'R', 'AH1', 'M'], ['S', 'EY1', 'V', 'AH1', 'S', 'F', 'R', 'AH1', 'M'], ['S', 'EY1', 'V', 'Y', 'UW1', 'EH1', 'S', 'F', 'ER0', 'M'], ['S', 'EY1', 'V', 'Y', 'UW1', 'EH1', 'S', 'F', 'ER0', 'M']]",4,"NO PHONETIC SIMILARITY
+",save us from
+229,0,0,1,1,[],1,"[['AH1', 'P']]",up,"[('AH1', 'R'), ('P', 'EY1')]","STRESS SIMILARITY
+","[['R', 'EY1', 'N']]",0,"PHONETIC SIMILARITY
+",rain
+230,0,0,1,1,[],1,[['AY1']],I,"[('AY1', 'HH')]","STRESS SIMILARITY
+","[['W', 'AH1', 'T'], ['HH', 'W', 'AH1', 'T']]",0,"PHONETIC SIMILARITY
+",what
+231,0,0,0,1,[],0,[['']],%OMISSION,"[('', 'Y')]","NO STRESS SIMILARITY
+","[['Y', 'UW1']]",0,"PHONETIC SIMILARITY
+",you
+232,7,2,2,2,"[('HH', 'R'), ('IH1', 'OW1'), ('L', 'P'), ('T', 'S')]",2,"[['HH', 'IH1', 'L', 'T', 'AH0', 'N']]",Hilton,"[('HH', 'R'), ('IH1', 'OW1'), ('L', 'P'), ('T', 'S')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P', 'S', 'AH0', 'N', 'D'], ['R', 'OW1', 'P', 'S', 'AE1', 'N', 'D']]",6,"NO PHONETIC SIMILARITY
+",ropes and
+233,15,1,1,6,"[('R', 'W'), ('EH1', 'AH1'), ('JH', 'T'), ('IH0', 'D'), ('S', 'UW1'), ('T', 'Y'), ('ER0', 'UW1'), ('IH0', 'TH')]",3,"[['R', 'EH1', 'JH', 'IH0', 'S', 'T', 'ER0', 'IH0', 'NG'], ['R', 'EH1', 'JH', 'IH0', 'S', 'T', 'R', 'IH0', 'NG']]",registering,"[('R', 'HH'), ('EH1', 'W'), ('JH', 'AH1'), ('IH0', 'T'), ('S', 'D'), ('T', 'UW1'), ('R', 'Y'), ('IH0', 'UW1'), ('NG', 'TH')]","NO STRESS SIMILARITY
+","[['W', 'AH1', 'T', 'D', 'UW1', 'Y', 'UW1', 'TH', 'IH1', 'NG', 'K', 'AH0', 'B', 'AW1', 'T'], ['HH', 'W', 'AH1', 'T', 'D', 'UW1', 'Y', 'UW1', 'TH', 'IH1', 'NG', 'K', 'AH0', 'B', 'AW1', 'T']]",9,"NO PHONETIC SIMILARITY
+",what do you think about
+234,7,1,1,2,"[('IH0', 'OW1'), ('Z', 'P'), ('AH1', 'S')]",1,"[['R', 'IH0', 'Z', 'AH1', 'L', 'T', 'S'], ['R', 'IY0', 'Z', 'AH1', 'L', 'T', 'S']]",results,"[('R', 'R'), ('IY0', 'OW1'), ('Z', 'P'), ('AH1', 'S')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P', 'S']]",4,"NO PHONETIC SIMILARITY
+",ropes
+235,3,1,1,1,"[('IH0', 'AH0')]",1,"[['IH0', 'N'], ['IH1', 'N']]",in,"[('IH1', 'AE1')]","STRESS SIMILARITY
+","[['AH0', 'N', 'D'], ['AE1', 'N', 'D']]",2,"PHONETIC SIMILARITY
+",and
+236,7,3,1,2,"[('K', 'P')]",1,"[['K', 'L', 'AE1', 'S']]",class,"[('K', 'P')]","STRESS SIMILARITY
+","[['P', 'L', 'AE1', 'S', 'T', 'IH0', 'K']]",4,"PHONETIC SIMILARITY
+",plastic
+237,12,1,0,4,"[('M', 'W'), ('ZH', 'R'), ('ER0', 'SH'), ('IH0', 'UH1'), ('NG', 'D')]",3,"[['M', 'EH1', 'ZH', 'ER0', 'IH0', 'NG']]",measuring,"[('M', 'HH'), ('EH1', 'W'), ('ZH', 'EH1'), ('ER0', 'R'), ('IH0', 'SH'), ('NG', 'UH1')]","NO STRESS SIMILARITY
+","[['W', 'EH1', 'R', 'SH', 'UH1', 'D', 'W', 'IY1', 'R', 'AE1', 'NG', 'K'], ['HH', 'W', 'EH1', 'R', 'SH', 'UH1', 'D', 'W', 'IY1', 'R', 'AE1', 'NG', 'K']]",6,"NO PHONETIC SIMILARITY
+",where should we rank
+238,5,3,1,1,"[('R', 'OW1')]",1,"[['G', 'R', 'UW1', 'P', 'S']]",groups,"[('R', 'OW1')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P', 'S']]",4,"MINOR LEXICAL
+",ropes
+239,0,0,0,2,[],0,[['No arpabet available']],Wroldsen,"[('No arpabet available', 'R')]","NO STRESS SIMILARITY
+","[['R', 'OW1', 'P', 'S', 'AA1', 'R'], ['R', 'OW1', 'P', 'S', 'ER0']]",0,"PHONETIC SIMILARITY
+",ropes are
+240,0,0,0,1,[],0,[['No arpabet available']],Andrelton,"[('No arpabet available', 'HH')]","NO STRESS SIMILARITY
+","[['W', 'AH1', 'N'], ['HH', 'W', 'AH1', 'N']]",0,"PHONETIC SIMILARITY
+",one
+241,2,1,1,1,[],1,"[['AE1', 'N'], ['AH0', 'N']]",an,[],"STRESS SIMILARITY
+","[['AH0'], ['EY1']]",1,"PHONETIC SIMILARITY
+",a
+242,0,0,0,3,[],0,[['No arpabet available']],iPhone,"[('No arpabet available', 'N')]","NO STRESS SIMILARITY
+","[['N', 'AY1', 'F', 'F', 'AO1', 'R', 'W', 'AH1', 'N'], ['N', 'AY1', 'F', 'F', 'AO1', 'R', 'W', 'AH1', 'N'], ['N', 'AY1', 'F', 'F', 'ER0', 'W', 'AH1', 'N'], ['N', 'AY1', 'F', 'F', 'ER0', 'HH', 'W', 'AH1', 'N'], ['N', 'AY1', 'F', 'F', 'R', 'ER0', 'HH', 'W', 'AH1', 'N'], ['N', 'AY1', 'F', 'F', 'R', 'ER0', 'HH', 'W', 'AH1', 'N']]",0,"PHONETIC SIMILARITY
+",knife for one
+243,5,2,1,2,"[('N', 'F')]",1,"[['T', 'AH0', 'N', 'AY1', 'T'], ['T', 'UW0', 'N', 'AY1', 'T']]",tonight,"[('N', 'F')]","STRESS SIMILARITY
+","[['N', 'AY1', 'F']]",3,"PHONETIC SIMILARITY
+",knife
+244,3,3,1,1,[],1,"[['L', 'AY1', 'F']]",life,[],"STRESS SIMILARITY
+","[['L', 'AY1', 'F']]",3,"HOMOPHONES
+",life
+245,3,2,1,1,"[('S', 'F')]",1,"[['N', 'AY1', 'S'], ['N', 'IY1', 'S']]",nice,"[('IY1', 'AY1'), ('S', 'F')]","STRESS SIMILARITY
+","[['N', 'AY1', 'F']]",3,"MINOR LEXICAL
+",knife
+246,0,0,1,1,[],1,"[['Y', 'UW1']]",you,"[('Y', 'W'), ('UW1', 'IY1')]","STRESS SIMILARITY
+","[['W', 'IY1']]",0,"PHONETIC SIMILARITY
+",we
+247,10,7,2,4,"[('AH0', 'F'), ('D', 'AO1')]",4,"[['IH1', 'N', 'D', 'AH0', 'K', 'EY2', 'T', 'AH0', 'D'], ['IH1', 'N', 'D', 'AH0', 'K', 'EY2', 'T', 'IH0', 'D']]",indicated,"[('IH0', 'F'), ('D', 'R')]","NO STRESS SIMILARITY
+","[['IH1', 'N', 'D', 'AH0', 'K', 'EY2', 'T', 'F', 'AO1', 'R'], ['IH1', 'N', 'D', 'AH0', 'K', 'EY2', 'T', 'F', 'ER0'], ['IH1', 'N', 'D', 'AH0', 'K', 'EY2', 'T', 'F', 'R', 'ER0']]",9,"MINOR LEXICAL
+",indicate for
+248,0,0,1,1,[],1,"[['DH', 'AE1', 'T'], ['DH', 'AH0', 'T']]",that,"[('DH', 'HH'), ('AE1', 'EH1'), ('T', 'L')]","STRESS SIMILARITY
+","[['HH', 'EH1', 'L', 'P']]",0,"PHONETIC SIMILARITY
+",help
+249,0,0,0,4,[],0,[['No arpabet available']],Zaferes,"[('No arpabet available', 'S')]","NO STRESS SIMILARITY
+","[['S', 'OW1', 'IH1', 'F', 'DH', 'EH1', 'R', 'IH1', 'Z'], ['S', 'OW1', 'IH1', 'F', 'DH', 'EH1', 'R', 'IH1', 'Z'], ['S', 'OW1', 'IH0', 'F', 'DH', 'EH1', 'R', 'IH0', 'Z'], ['S', 'OW1', 'IH0', 'F', 'DH', 'EH1', 'R', 'IH0', 'Z']]",0,"PHONETIC SIMILARITY
+",So if there is
+250,0,0,1,2,[],1,"[['EH1', 'V', 'ER0', 'IY0'], ['EH1', 'V', 'R', 'IY0']]",every,"[('EH1', 'IH1'), ('V', 'F')]","STRESS SIMILARITY
+","[['IH1', 'F'], ['IH0', 'F']]",0,"PHONETIC SIMILARITY
+",if
+251,5,1,0,2,"[('IH1', 'W'), ('UW0', 'SH')]",2,"[['IH1', 'SH', 'UW0']]",issue,"[('IH1', 'W'), ('SH', 'IY1'), ('UW0', 'SH')]","NO STRESS SIMILARITY
+","[['W', 'IY1', 'SH', 'UW1', 'T']]",3,"PHONETIC SIMILARITY
+",we shoot
+252,0,0,0,3,[],2,"[['B', 'IH0', 'F', 'AO1', 'R'], ['B', 'IY2', 'F', 'AO1', 'R']]",before,"[('B', 'EY1'), ('IY2', 'F'), ('F', 'AY1'), ('AO1', 'R'), ('R', 'W')]","NO STRESS SIMILARITY
+","[['AH0', 'F', 'AY1', 'R', 'W', 'ER2', 'K'], ['EY1', 'F', 'AY1', 'R', 'W', 'ER2', 'K']]",0,"PHONETIC SIMILARITY
+",a firework
+253,6,1,1,2,[],1,[['AY1']],I,[],"STRESS SIMILARITY
+","[['F', 'AY1', 'R', 'W', 'ER2', 'K']]",1,"PHONETIC SIMILARITY
+",firework
+254,6,1,1,2,"[('UH1', 'AY1'), ('D', 'R')]",1,"[['W', 'UH1', 'D']]",would,"[('W', 'F'), ('UH1', 'AY1'), ('D', 'R')]","STRESS SIMILARITY
+","[['F', 'AY1', 'R', 'W', 'ER2', 'K']]",3,"NO PHONETIC SIMILARITY
+",firework
+255,4,2,1,1,"[('B', 'DH')]",1,"[['B', 'EH1', 'N', 'D']]",bend,"[('B', 'DH')]","STRESS SIMILARITY
+","[['DH', 'EH1', 'N']]",3,"MINOR LEXICAL
+",then
+256,0,0,0,0,[],1,[['']],%OMISSION,"[('', 'ER0')]","NO STRESS SIMILARITY
+","[['AO1', 'R'], ['ER0']]",0,"PHONETIC SIMILARITY
+",or
+257,2,2,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,[],"STRESS SIMILARITY
+","[['T', 'UW1']]",2,"HOMOPHONES
+",two
+258,0,0,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'W'), ('UW1', 'UH1')]","STRESS SIMILARITY
+","[['W', 'UH1', 'D']]",0,"PHONETIC SIMILARITY
+",would
+259,8,4,2,3,"[('P', 'P'), ('ER0', 'R')]",3,"[['P', 'ER0', 'IH1', 'ZH', 'AH0', 'N']]",Parisian,"[('P', 'P'), ('ER0', 'R')]","NO STRESS SIMILARITY
+","[['P', 'R', 'AH0', 'V', 'IH1', 'ZH', 'AH0', 'N']]",6,"PHONETIC SIMILARITY
+",provision
+260,4,2,1,1,"[('DH', 'L'), ('AE1', 'EH1')]",1,"[['DH', 'AE1', 'T', 'S']]",that's,"[('DH', 'L'), ('AE1', 'EH1')]","STRESS SIMILARITY
+","[['L', 'EH1', 'T', 'S']]",4,"MINOR LEXICAL
+",Let's
+261,4,1,1,2,[],1,"[['AH0'], ['EY1']]",a,"[('EY1', 'AH0')]","STRESS SIMILARITY
+","[['AH0', 'S', 'UW1', 'M']]",1,"PHONETIC SIMILARITY
+",assume
+262,5,2,2,2,"[('R', 'AH0'), ('IH0', 'S')]",2,"[['R', 'IH0', 'Z', 'UW1', 'M'], ['R', 'IY0', 'Z', 'UW1', 'M'], ['R', 'EH1', 'Z', 'AH0', 'M', 'EY2']]",resume,"[('R', 'AH0'), ('IY0', 'S')]","STRESS SIMILARITY
+","[['AH0', 'S', 'UW1', 'M']]",4,"PHONETIC SIMILARITY
+",assume
+263,5,2,2,2,"[('R', 'AH0'), ('IH0', 'S')]",2,"[['R', 'IH0', 'Z', 'UW1', 'M'], ['R', 'IY0', 'Z', 'UW1', 'M'], ['R', 'EH1', 'Z', 'AH0', 'M', 'EY2']]",resume,"[('R', 'AH0'), ('IY0', 'S')]","STRESS SIMILARITY
+","[['AH0', 'S', 'UW1', 'M']]",4,"PHONETIC SIMILARITY
+",assume
+264,0,0,1,2,[],1,"[['IH1', 'Z'], ['IH0', 'Z']]",is,"[('IH0', 'AH0'), ('Z', 'S')]","STRESS SIMILARITY
+","[['AH0', 'S', 'UW1', 'M']]",0,"PHONETIC SIMILARITY
+",assume
+265,4,1,1,2,"[('Y', 'AH0')]",1,"[['Y', 'UW1']]",you,"[('Y', 'AH0')]","STRESS SIMILARITY
+","[['AH0', 'S', 'UW1', 'M']]",2,"PHONETIC SIMILARITY
+",assume
+266,4,1,1,1,"[('AO1', 'ER1'), ('R', 'S')]",1,"[['F', 'AO1', 'R'], ['F', 'ER0'], ['F', 'R', 'ER0']]",for,"[('AO1', 'ER1'), ('R', 'S')]","STRESS SIMILARITY
+","[['F', 'ER1', 'S', 'T']]",3,"MINOR LEXICAL
+",first
+267,0,0,0,2,[],2,"[['S', 'EH1', 'N', 'D', 'IH0', 'NG']]",sending,"[('S', 'AE1'), ('EH1', 'N'), ('N', 'D'), ('D', 'DH'), ('IH0', 'EH1'), ('NG', 'N')]","NO STRESS SIMILARITY
+","[['AH0', 'N', 'D', 'DH', 'EH1', 'N'], ['AE1', 'N', 'D', 'DH', 'EH1', 'N']]",0,"PHONETIC SIMILARITY
+",and then
+268,4,1,1,1,"[('AO1', 'ER1'), ('R', 'S')]",1,"[['F', 'AO1', 'R'], ['F', 'ER0'], ['F', 'R', 'ER0']]",for,"[('AO1', 'ER1'), ('R', 'S')]","STRESS SIMILARITY
+","[['F', 'ER1', 'S', 'T']]",3,"MINOR LEXICAL
+",first
+269,7,1,0,2,"[('S', 'AH0'), ('T', 'N'), ('AE1', 'D'), ('N', 'DH'), ('T', 'EH1')]",2,"[['S', 'T', 'AE1', 'N', 'T', 'AH0', 'N']]",Stanton,"[('S', 'AE1'), ('T', 'N'), ('AE1', 'D'), ('N', 'DH'), ('T', 'EH1')]","NO STRESS SIMILARITY
+","[['AH0', 'N', 'D', 'DH', 'EH1', 'N'], ['AE1', 'N', 'D', 'DH', 'EH1', 'N']]",6,"NO PHONETIC SIMILARITY
+",and then
+270,0,0,0,4,[],0,[['No arpabet available']],Cooper S,"[('No arpabet available', 'EY1')]","NO STRESS SIMILARITY
+","[['AH0', 'R', 'OW1', 'P', 'AE1', 'Z', 'W', 'EH1', 'L'], ['AH0', 'R', 'OW1', 'P', 'AE1', 'Z', 'W', 'EH1', 'L'], ['EY1', 'R', 'OW1', 'P', 'EH1', 'Z', 'W', 'EH1', 'L'], ['EY1', 'R', 'OW1', 'P', 'EH1', 'Z', 'W', 'EH1', 'L']]",0,"PHONETIC SIMILARITY
+",a rope as well
+271,0,0,1,1,[],1,[['AY1']],I,"[('AY1', 'EY1')]","STRESS SIMILARITY
+","[['AH0'], ['EY1']]",0,"PHONETIC SIMILARITY
+",a
+272,3,2,1,1,"[('HH', 'R')]",1,"[['HH', 'OW1', 'P']]",hope,"[('HH', 'R')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P']]",3,"MINOR LEXICAL
+",rope
+273,4,2,1,1,"[('R', 'OW1')]",1,"[['G', 'R', 'UW1', 'P']]",group,"[('R', 'OW1')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P']]",3,"MINOR LEXICAL
+",rope
+274,10,1,2,4,"[('F', 'AY1'), ('R', 'TH'), ('AO1', 'IH1'), ('S', 'NG'), ('T', 'K'), ('D', 'F')]",2,"[['F', 'R', 'AO1', 'S', 'T', 'AH0', 'D'], ['F', 'R', 'AO1', 'S', 'T', 'IH0', 'D']]",frosted,"[('F', 'AY1'), ('R', 'TH'), ('AO1', 'IH1'), ('S', 'NG'), ('T', 'K'), ('IH0', 'AH0'), ('D', 'F')]","STRESS SIMILARITY
+","[['AY1', 'TH', 'IH1', 'NG', 'K', 'AH0', 'F', 'ER1', 'S', 'T'], ['AY1', 'TH', 'IH1', 'NG', 'K', 'EY1', 'F', 'ER1', 'S', 'T']]",7,"NO PHONETIC SIMILARITY
+",I think a first
+275,5,1,0,2,"[('K', 'EY1'), ('UH1', 'D'), ('IY0', 'IH1')]",2,"[['K', 'UH1', 'K', 'IY0']]",cookie,"[('K', 'EY1'), ('UH1', 'D'), ('K', 'K'), ('IY0', 'IH1')]","NO STRESS SIMILARITY
+","[['EY1', 'D', 'K', 'IH1', 'T']]",4,"PHONETIC SIMILARITY
+",aid kit
+276,0,0,0,2,[],0,[['No arpabet available']],Tessile,"[('No arpabet available', 'EH1')]","NO STRESS SIMILARITY
+","[['AE1', 'Z', 'W', 'EH1', 'L'], ['EH1', 'Z', 'W', 'EH1', 'L']]",0,"PHONETIC SIMILARITY
+",as well
+277,5,2,1,2,"[('L', 'IH0'), ('IH0', 'NG')]",2,"[['R', 'OW1', 'L', 'IH0', 'NG']]",rolling,"[('R', 'R'), ('OW1', 'OW1')]","NO STRESS SIMILARITY
+","[['R', 'OW1', 'IH0', 'NG']]",4,"MINOR LEXICAL
+",rowing
+278,5,3,0,2,"[('EH1', 'AH1'), ('AH0', 'AE1')]",2,"[['S', 'EH1', 'N', 'AH0', 'T'], ['S', 'EH1', 'N', 'IH0', 'T']]",Senate,"[('EH1', 'AH1'), ('IH0', 'AE1')]","NO STRESS SIMILARITY
+","[['S', 'AH1', 'N', 'AE1', 'T']]",5,"MINOR LEXICAL
+",sun at
+279,2,2,1,1,[],1,"[['S', 'IY1']]",see,[],"STRESS SIMILARITY
+","[['S', 'IY1']]",2,"HOMOPHONES
+",sea
+280,3,1,1,1,"[('T', 'Z')]",1,"[['IH1', 'T', 'S'], ['IH0', 'T', 'S']]",it's,"[('T', 'Z')]","STRESS SIMILARITY
+","[['IH1', 'Z'], ['IH0', 'Z']]",2,"PHONETIC SIMILARITY
+",is
+281,0,0,0,2,[],0,[['No arpabet available']],Bairin,"[('No arpabet available', 'B')]","NO STRESS SIMILARITY
+","[['B', 'AE1', 'R', 'AH0', 'N'], ['B', 'EH1', 'R', 'AH0', 'N']]",0,"PHONETIC SIMILARITY
+",barren
+282,9,5,0,2,"[('L', 'IH1'), ('F', 'S')]",2,"[['F', 'AO1', 'R', 'K', 'L', 'IH2', 'F', 'T', 'S']]",forklifts,"[('F', 'ER0'), ('AO1', 'K'), ('R', 'L'), ('K', 'IH1'), ('L', 'F')]","NO STRESS SIMILARITY
+","[['AO1', 'R', 'K', 'L', 'IH1', 'F', 'S'], ['ER0', 'K', 'L', 'IH1', 'F', 'S']]",7,"MINOR LEXICAL
+",or cliffs
+283,0,0,1,2,[],1,"[['DH', 'EY1']]",they,"[('DH', 'N'), ('EY1', 'EH1')]","STRESS SIMILARITY
+","[['N', 'EH1', 'V', 'ER0']]",0,"PHONETIC SIMILARITY
+",never
+284,0,0,1,2,[],1,"[['W', 'UH1', 'D']]",would,"[('W', 'N'), ('UH1', 'EH1'), ('D', 'V')]","STRESS SIMILARITY
+","[['N', 'EH1', 'V', 'ER0']]",0,"PHONETIC SIMILARITY
+",never
+285,2,1,1,1,"[('D', 'T')]",1,"[['D', 'UW1']]",do,"[('D', 'T')]","STRESS SIMILARITY
+","[['T', 'UW1']]",2,"PHONETIC SIMILARITY
+",too
+286,2,2,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,[],"STRESS SIMILARITY
+","[['T', 'UW1']]",2,"HOMOPHONES
+",too
+287,0,0,0,1,[],0,[['No arpabet available']],10,"[('No arpabet available', 'TH')]","NO STRESS SIMILARITY
+","[['TH', 'IH1', 'N']]",0,"PHONETIC SIMILARITY
+",thin
+288,2,2,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,[],"STRESS SIMILARITY
+","[['T', 'UW1']]",2,"HOMOPHONES
+",too
+289,3,2,1,1,"[('D', 'R')]",1,"[['D', 'IH1', 'CH']]",ditch,"[('D', 'R')]","STRESS SIMILARITY
+","[['R', 'IH1', 'CH']]",3,"MINOR LEXICAL
+",rich
+290,6,1,1,2,"[('AH0', 'R')]",1,"[['DH', 'AH0'], ['DH', 'AH1'], ['DH', 'IY0']]",the,"[('IY0', 'R')]","STRESS SIMILARITY
+","[['B', 'R', 'IY1', 'DH', 'IH0', 'NG']]",2,"PHONETIC SIMILARITY
+",breathing
+291,6,1,1,2,"[('TH', 'B'), ('IH1', 'R')]",1,"[['TH', 'IH1', 'NG']]",thing,"[('TH', 'B'), ('IH1', 'R'), ('NG', 'IY1')]","STRESS SIMILARITY
+","[['B', 'R', 'IY1', 'DH', 'IH0', 'NG']]",3,"PHONETIC SIMILARITY
+",breathing
+292,6,4,2,2,"[('D', 'IY1')]",2,"[['R', 'EH1', 'D', 'IH0', 'NG'], ['R', 'IY1', 'D', 'IH0', 'NG']]",reading,"[('D', 'IY1')]","STRESS SIMILARITY
+","[['B', 'R', 'IY1', 'DH', 'IH0', 'NG']]",5,"MINOR LEXICAL
+",breathing
+293,5,4,2,2,"[('AH0', 'ER0')]",2,"[['S', 'AE1', 'T', 'AH0', 'N']]",satin,"[('AH0', 'ER0')]","STRESS SIMILARITY
+","[['S', 'AE1', 'T', 'ER0', 'N']]",5,"MINOR LEXICAL
+",Saturn
+294,4,1,1,2,"[('G', 'K'), ('T', 'R')]",1,"[['G', 'EH1', 'T'], ['G', 'IH1', 'T']]",get,"[('G', 'K'), ('IH1', 'EH1'), ('T', 'R')]","STRESS SIMILARITY
+","[['K', 'AE1', 'R', 'IY0'], ['K', 'EH1', 'R', 'IY0']]",3,"PHONETIC SIMILARITY
+",carry
+295,0,0,1,2,[],1,"[['IH1', 'T'], ['IH0', 'T']]",it,"[('IH1', 'K'), ('T', 'EH1')]","STRESS SIMILARITY
+","[['K', 'AE1', 'R', 'IY0'], ['K', 'EH1', 'R', 'IY0']]",0,"PHONETIC SIMILARITY
+",carry
+296,0,0,0,2,[],0,[['No arpabet available']],Sombroek,"[('No arpabet available', 'S')]","NO STRESS SIMILARITY
+","[['S', 'AH1', 'M', 'R', 'OW1', 'P']]",0,"PHONETIC SIMILARITY
+",some rope
+297,6,4,0,2,"[('AH2', 'UH1'), ('N', 'D')]",2,"[['S', 'AH1', 'M', 'W', 'AH2', 'N']]",someone,"[('AH2', 'UH1'), ('N', 'D')]","NO STRESS SIMILARITY
+","[['S', 'AH1', 'M', 'W', 'UH1', 'D']]",6,"MINOR LEXICAL
+",some wood
+298,0,0,1,1,[],1,"[['AY1', 'L']]",I'll,"[('AY1', 'AA1'), ('L', 'R')]","STRESS SIMILARITY
+","[['AA1', 'R'], ['ER0']]",0,"PHONETIC SIMILARITY
+",are
+299,2,1,1,1,"[('B', 'W')]",1,"[['B', 'IY1'], ['B', 'IY0']]",be,"[('B', 'W')]","STRESS SIMILARITY
+","[['W', 'IY1']]",2,"PHONETIC SIMILARITY
+",we
+300,5,3,2,2,"[('HH', 'AE1')]",2,"[['HH', 'EH1', 'D', 'IH0', 'NG']]",heading,"[('HH', 'AE1')]","STRESS SIMILARITY
+","[['AE1', 'D', 'IH0', 'NG']]",4,"MINOR LEXICAL
+",adding
+301,4,1,1,1,"[('AH1', 'R')]",1,"[['AH1', 'P']]",up,"[('AH1', 'R')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P', 'S']]",2,"PHONETIC SIMILARITY
+",ropes
+302,3,1,1,1,"[('S', 'K'), ('K', 'S')]",1,"[['AE1', 'S', 'K']]",ask,"[('S', 'K'), ('K', 'S')]","STRESS SIMILARITY
+","[['AE1', 'K', 'S']]",3,"MINOR LEXICAL
+",axe
+303,4,1,1,1,"[('TH', 'T'), ('T', 'R')]",1,"[['TH', 'AO1', 'T']]",thought,"[('TH', 'T'), ('T', 'R')]","STRESS SIMILARITY
+","[['T', 'AO1', 'R', 'CH']]",3,"PHONETIC SIMILARITY
+",torch
+304,2,2,1,1,[],1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,[],"STRESS SIMILARITY
+","[['T', 'UW1']]",2,"HOMOPHONES
+",two
+305,4,1,1,2,"[('G', 'D'), ('IH0', 'N'), ('NG', 'T')]",1,"[['G', 'OW1', 'IH0', 'NG'], ['G', 'OW1', 'IH0', 'N']]",going,"[('G', 'D'), ('IH0', 'N')]","STRESS SIMILARITY
+","[['D', 'OW1', 'N', 'T'], ['D', 'OW1', 'N']]",4,"MINOR LEXICAL
+",don't
+306,2,1,1,1,"[('T', 'Y')]",1,"[['T', 'UW1'], ['T', 'IH0'], ['T', 'AH0']]",to,"[('T', 'Y')]","STRESS SIMILARITY
+","[['Y', 'UW1']]",2,"PHONETIC SIMILARITY
+",you
+307,9,7,3,4,"[('IH0', 'ER0')]",4,"[['N', 'AE1', 'V', 'AH0', 'G', 'EY2', 'T', 'IH0', 'D']]",navigated,"[('IH0', 'ER0')]","NO STRESS SIMILARITY
+","[['N', 'AE1', 'V', 'AH0', 'G', 'EY2', 'T', 'ER0']]",8,"MINOR LEXICAL
+",navigator
+308,8,1,1,4,"[('N', 'Y'), ('OW0', 'EH1')]",1,"[['N', 'OW0', 'T', 'AO1', 'R', 'IY0', 'AH0', 'S']]",notorious,"[('N', 'Y'), ('OW0', 'EH1'), ('T', 'S')]","STRESS SIMILARITY
+","[['Y', 'EH1', 'S']]",3,"NO PHONETIC SIMILARITY
+",yes
+309,4,3,2,2,"[('D', 'T')]",2,"[['AE1', 'D', 'AH0', 'D'], ['AE1', 'D', 'IH0', 'D']]",added,"[('D', 'T')]","STRESS SIMILARITY
+","[['AE1', 'D', 'IH1', 'T'], ['AE1', 'D', 'IH0', 'T']]",4,"MINOR LEXICAL
+",add it
+310,5,3,1,1,"[('R', 'OW1')]",1,"[['G', 'R', 'UW1', 'P', 'S']]",groups,"[('R', 'OW1')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P', 'S']]",4,"MINOR LEXICAL
+",ropes
+311,5,3,1,1,"[('R', 'OW1')]",1,"[['T', 'R', 'UW1', 'P', 'S']]",troops,"[('R', 'OW1')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P', 'S']]",4,"MINOR LEXICAL
+",ropes
+312,5,3,1,1,"[('R', 'OW1')]",1,"[['G', 'R', 'UW1', 'P', 'S']]",groups,"[('R', 'OW1')]","STRESS SIMILARITY
+","[['R', 'OW1', 'P', 'S']]",4,"MINOR LEXICAL
+",ropes
+313,0,0,1,1,[],1,"[['W', 'AH1', 'T', 'S'], ['HH', 'W', 'AH1', 'T', 'S']]",what's,"[('HH', 'F'), ('W', 'AO1'), ('AH1', 'R')]","STRESS SIMILARITY
+","[['F', 'AO1', 'R'], ['F', 'ER0'], ['F', 'R', 'ER0']]",0,"PHONETIC SIMILARITY
+",for
+314,9,4,1,3,"[('IH0', 'S'), ('M', 'AH0')]",2,"[['IH0', 'M', 'P', 'AO1', 'R', 'T', 'AH0', 'N', 'T']]",important,"[('IH0', 'S'), ('M', 'AH0')]","NO STRESS SIMILARITY
+","[['S', 'AH0', 'P', 'AO1', 'R', 'T']]",6,"PHONETIC SIMILARITY
+",support
+315,0,0,0,1,[],1,"[['D', 'AH1', 'Z'], ['D', 'IH0', 'Z']]",does,"[('D', 'EH1'), ('IH0', 'L'), ('Z', 'S')]","NO STRESS SIMILARITY
+","[['EH1', 'L', 'S']]",0,"PHONETIC SIMILARITY
+",else
+316,0,0,1,1,[],1,"[['IH1', 'Z'], ['IH0', 'Z']]",is,"[('IH1', 'EH1'), ('Z', 'L')]","STRESS SIMILARITY
+","[['EH1', 'L', 'S']]",0,"PHONETIC SIMILARITY
+",else
+317,0,0,1,1,[],1,"[['IH1', 'Z'], ['IH0', 'Z']]",is,"[('IH1', 'EH1'), ('Z', 'L')]","STRESS SIMILARITY
+","[['EH1', 'L', 'S']]",0,"PHONETIC SIMILARITY
+",else
+318,0,0,0,2,[],0,[['']],%OMISSION,"[('', 'W')]","NO STRESS SIMILARITY
+","[['W', 'UH1', 'D', 'B', 'IY1'], ['W', 'UH1', 'D', 'B', 'IY0']]",0,"PHONETIC SIMILARITY
+",would be
+319,2,1,1,1,"[('UW1', 'AE1')]",1,"[['Y', 'UW1']]",you,"[('UW1', 'AE1')]","STRESS SIMILARITY
+","[['Y', 'AE1']]",2,"PHONETIC SIMILARITY
+",yeah
+320,5,1,0,3,"[('N', 'OW1'), ('IY1', 'Y'), ('T', 'AE1')]",2,"[['AH0', 'N', 'IY1', 'T', 'AH0']]",Anita,"[('N', 'OW1'), ('IY1', 'Y'), ('T', 'AE1')]","NO STRESS SIMILARITY
+","[['N', 'OW1', 'Y', 'AE1']]",4,"PHONETIC SIMILARITY
+",no yeah
