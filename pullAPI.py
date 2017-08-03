@@ -60,8 +60,11 @@ num_words_below_75 = []
 num_words_above_75 = []
 for i in content:
     words = i.split(",")
+    # Counts total number of words spoken
     count1 = 0
+    # Counts words above 75 %
     count2 = 0
+    # Counts words below 75 %
     count3 = 0
     for word in words:
         word = word.replace("{", "")

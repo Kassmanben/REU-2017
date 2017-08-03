@@ -1,23 +1,16 @@
 import pympi, re, datetime, json, xlrd, re, pickle
 
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
 # All of this needs to be entered correctly before starting the processing
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
-#  Get these values from the IBM transcript
+#  Get these values from the IBM transcript (ONLY MATTERS 2nd time)
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 instructor_id = '0'
 hearing_participant_1_IBM = '1'
 hearing_participant_2_IBM = '-1'
 
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
-#  Get these from the app transcript
+#  Get these from the app transcript (ONLY MATTERS 2nd time)
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 dhh_participant_app = '2'
 hearing_participant_1_app = '3'
@@ -26,20 +19,16 @@ hearing_participant_2_app = '-1'
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 # The first time that someone speaks into the app. Required so that we can sync up the
 # timestamps from the app to the timestamps from the IBM transcript. See correct_app_time for more info
+#(ONLY MATTERS 2nd time)
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 start_time = "00:41"
 
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# Self explanatory
+# Self explanatory NEEDS TO BE ENTERED BOTH TIMES
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 trial_num = 3
 trial_date = '06_27_17'
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -163,7 +152,7 @@ def create_conversation_transcript_IBM(IBM_transcript, IBM_speaker_data):
         for ids in time_ranges.keys():
             for times in time_ranges[ids]:
                 if start_time >= times[0] and start_time <= times[1]:
-                    temp_string = "(" + convert_seconds_to_ms(times[0]) + ", " + convert_seconds_to_ms(
+                    temp_string = "(" + convert_seconds_to_minsec(times[0]) + ", " + convert_seconds_to_minsec(
                         times[1]) + ")\t\t" + str(ids) + ": " + str(t[-1])
                     if len(temp_string[0]) > 0:
                         temp_conversation[j] = temp_string
@@ -326,7 +315,7 @@ def correct_app_time(sd):
             t_h0 = float(parse(str(worksheet.cell(i, 4)))) - (float(parse(str(worksheet.cell(i, 2)))) / 86400)
             t_h0 = convert_hms_to_milliseconds(excel_time_to_python_time(t_h0))
             break
-    eq_t_h0 = convert_ms_to_milliseconds(start_time)
+    eq_t_h0 = convert_minsec_to_milliseconds(start_time)
     translation[0] = t_h0 - eq_t_h0
 
 
@@ -387,8 +376,8 @@ def correct_IBM_to_error_checked(IBM_trans, complete_t):
         if complete_t[i][0] == instructor_id:
             continue
         if complete_t[i][0] == "(":
-            time_1 = convert_ms_to_milliseconds(complete_t[i][1:6])
-            time_2 = convert_ms_to_milliseconds(complete_t[i][8:13])
+            time_1 = convert_minsec_to_milliseconds(complete_t[i][1:6])
+            time_2 = convert_minsec_to_milliseconds(complete_t[i][8:13])
             if time_1 == time_2:
                 time_2 += 1
             if complete_t[i][14] == instructor_id:
@@ -618,36 +607,30 @@ for i in range(1, len(worksheet.col(0))):
     }
     phrase_dict[i] = cell
 
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# Loads IBM trancsript and speaker data
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
+with open("Trial_" + str(trial_num) +"_"+ str(trial_date) + '/Trial_' + str(trial_num) + '_IBM_Transcript.pkl',
+          'rb') as handle:
+    transcript = pickle.load(handle)
 
-# with open("Trial_" + str(trial_num) +"_"+ str(trial_date) + '/Trial_' + str(trial_num) + '_IBM_Transcript.pkl',
-#           'rb') as handle:
-#     transcript = pickle.load(handle)
-
-# with open("Trial_" + str(trial_num) +"_"+ str(trial_date) + '/Trial_' + str(
-#         trial_num) + '_IBM_Speaker_Data.pkl', 'rb') as handle:
-#     speaker_data = pickle.load(handle)
+with open("Trial_" + str(trial_num) +"_"+ str(trial_date) + '/Trial_' + str(
+        trial_num) + '_IBM_Speaker_Data.pkl', 'rb') as handle:
+    speaker_data = pickle.load(handle)
 
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 # Loads "complete transcript" (the error checked IBM transcript created by the researchers)
-# NOTE: Have this commented out when you run this code the first time
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-# with open("Trial_" + str(trial_num) + "_" + str(trial_date) + '/Trial_' + str(
-#         trial_num) + '_Complete_Transcript.txt', 'r') as handle:
-#     complete_transcript = handle.readlines()
+with open("Trial_" + str(trial_num) + "_" + str(trial_date) + '/Trial_' + str(
+        trial_num) + '_Complete_Transcript.txt', 'r') as handle:
+    complete_transcript = handle.readlines()
 
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 # Loads "error markup" (the error markup-ed app transcript created by the researchers)
-# NOTE: Have this commented out when you run this code the first time
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-# with open("Trial_" + str(trial_num) + "_" + str(trial_date) + '/Trial_' + str(
-#         trial_num) + '_Error_Markup.txt', 'r') as handle:
-#     checked_app_transcript = handle.readlines()
+with open("Trial_" + str(trial_num) + "_" + str(trial_date) + '/Trial_' + str(
+        trial_num) + '_Error_Markup.txt', 'r') as handle:
+    checked_app_transcript = handle.readlines()
 
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ## Creates IBM transcript (this is created from the raw data so there will be errors until you process
@@ -672,56 +655,27 @@ for m in range(1, len(IBM_conversation)):
     time_list.append(IBM_conversation[m][:14])
 
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# This creates the initial "Complete IBM Transcript" file from the raw IBM data
-# This will be the file that the researchers make corrections to to get the final tanscript
-# WARNING: Only have this uncommented the first time the code is run, so that the IBM transcript is created
-# Comment it out immediately afterwards so you don't accidentally overwrite the corrected IBM Trancscript
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-# e = "Instructor # = " + instructor_id + "\nHearing Participant 1 #= " + hearing_participant_1_IBM + "\nHearing Participant 2 #= " + hearing_participant_2_IBM + "\n"
-# for line in IBM_conversation:
-#     e += line + "\n "
-#
-# f = open("Trial_" + str(trial_num) + "_" + str(trial_date) + '/Trial_' + str(trial_num) + '_Complete_Transcript.txt', 'w')
-# f.write(e)
-
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-# This creates the initial "Error Markup" file from the raw app data
-# This will be the file that the researchers make corrections to to get the error markup data
-# WARNING: Only have this uncommented the first time the code is run, so that the IBM transcript is created
-# Comment it out immediately afterwards so you don't accidentally overwrite the corrected IBM Trancscript
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-# e = "Deaf/ Hard of Hearing Participant # = " + dhh_participant_app + "\nHearing Participant 1 #= " + hearing_participant_1_app + "\nHearing Participant 2 #= " + hearing_participant_2_app + "\n"
-# for line in app_conversation:
-#     e += line + "\n "
-#
-# f = open("Trial_" + str(trial_num) + "_" + str(trial_date) + '/Trial_' + str(trial_num) + '_Error_Markup.txt', 'w')
-# f.write(e)
-
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////
 # Takes the IBM completed transcript in and parses out the timestamps and first 4 lines of information
 # Have this commented out when you run this code the first time
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-# complete_transcript = complete_transcript[4:]
-# complete_speaker_data = []
-# i = 0
-# for c in complete_transcript.copy():
-#     complete_transcript.remove(c)
-#     c = c.replace("\n", "")
-#     c = c.replace("\t", "")
-#     c = c.strip()
-#     timestamps = re.findall(r'(...:.., ..:...)', c)
-#     if len(timestamps) > 0:
-#         if timestamps[0] in time_list:
-#             c = c.replace(timestamps[0], "")
-#             timestamps = timestamps[0][1:-1].split(",")
-#     if len(c) > 0:
-#         complete_transcript.insert(i, c)
-#         complete_speaker_data.insert(i, timestamps)
-#         i += 1
+complete_transcript = complete_transcript[4:]
+complete_speaker_data = []
+i = 0
+for c in complete_transcript.copy():
+    complete_transcript.remove(c)
+    c = c.replace("\n", "")
+    c = c.replace("\t", "")
+    c = c.strip()
+    timestamps = re.findall(r'(...:.., ..:...)', c)
+    if len(timestamps) > 0:
+        if timestamps[0] in time_list:
+            c = c.replace(timestamps[0], "")
+            timestamps = timestamps[0][1:-1].split(",")
+    if len(c) > 0:
+        complete_transcript.insert(i, c)
+        complete_speaker_data.insert(i, timestamps)
+        i += 1
 
 
 # ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -771,6 +725,3 @@ elan_obj.to_file("Trial_" + str(trial_num) + "_" + str(trial_date) + '/Vid' + st
 
 
 
-# prints error data for easier data entry
-# for i in range(1, len(app_conversation)):
-#     output_errors(checked_app_transcript[3:][i].strip(), i)

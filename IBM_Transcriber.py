@@ -23,8 +23,10 @@ print(json.dumps(speech_to_text.get_model('en-US_BroadbandModel'), indent=2))
 trial_number = '9'
 trial_date = '07_07_17'
 
-
+# The input file should already exist as a .flac file from "ffmpeg -i *.mov *.flac"
+# Process the .flac file using Audacity, export file as .flac level 5 or 6, bitrate 16-bit to keep under 100MB for IBM Watson
 input_file = "Trial_"+trial_number+"_"+trial_date+'/Trial_'+trial_number+"_"+trial_date+'.flac'
+
 output_file = "Trial_"+trial_number+"_"+trial_date+'/Trial_'+trial_number+'_IBM_Transcript.json'
 
 
